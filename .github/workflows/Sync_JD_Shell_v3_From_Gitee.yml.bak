@@ -9,7 +9,7 @@ on:
 jobs:
   sync:
     runs-on: ubuntu-18.04
-    if: github.repository == 'lan-tianxiang/jd_shell'
+    if: github.repository == 'lan-tianxiang/js_tool'
     timeout-minutes: 3
     steps:
     - name: Init Build Dependencies

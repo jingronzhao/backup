@@ -7,7 +7,7 @@ on:
 jobs:
   sync:
     runs-on: ubuntu-18.04
-    if: github.repository == 'lan-tianxiang/jd_shell'
+    if: github.repository == 'lan-tianxiang/js_tool'
     timeout-minutes: 3
     steps:
     - name: Init Build Dependencies
@@ -27,7 +27,7 @@ jobs:
         ssh-keyscan github.com > ~/.ssh/known_hosts
     - name: Clone Master
       run: |
-        git clone -b v3 git@github.com:lan-tianxiang/jd_shell.git v3
+        git clone -b v3 git@github.com:lan-tianxiang/js_tool.git v3
     - name: Prepare Key
       run: |
         mkdir -p ~/.ssh

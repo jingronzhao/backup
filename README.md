@@ -1,5 +1,5 @@
 <!--
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=lan-tianxiang&show_icons=true&theme=radical&repo=jd_shell)](https://github.com/lan-tianxiang/jd_shell)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=lan-tianxiang&show_icons=true&theme=radical&repo=jd_shell)](https://github.com/lan-tianxiang/js_tool)
 -->
 
 <p align="center">
@@ -8,9 +8,9 @@
  <p align="center">自动化一键完成JS库管理</p>
 </p>
   <p align="center">
-    <a href="https://github.com/lan-tianxiang/jd_shell/blob/master/LICENSE"><img alt="GitHub" src="https://img.shields.io/github/license/lan-tianxiang/jd_shell.svg?label=License&style=for-the-badge"></a>
-    <a href="https://github.com/lan-tianxiang/jd_shell/issues"><img alt="Issues" src="https://img.shields.io/github/issues/lan-tianxiang/jd_shell?color=0088ff&style=for-the-badge" /></a>
-    <a href="https://github.com/lan-tianxiang/jd_shell/stargazers"><img alt="GitHub" src="https://img.shields.io/github/stars/lan-tianxiang/jd_shell.svg?label=Stars&style=for-the-badge"></a>
+    <a href="https://github.com/lan-tianxiang/js_tool/blob/master/LICENSE"><img alt="GitHub" src="https://img.shields.io/github/license/lan-tianxiang/js_tool.svg?label=License&style=for-the-badge"></a>
+    <a href="https://github.com/lan-tianxiang/js_tool/issues"><img alt="Issues" src="https://img.shields.io/github/issues/lan-tianxiang/js_tool?color=0088ff&style=for-the-badge" /></a>
+    <a href="https://github.com/lan-tianxiang/js_tool/stargazers"><img alt="GitHub" src="https://img.shields.io/github/stars/lan-tianxiang/js_tool.svg?label=Stars&style=for-the-badge"></a>
     <br />
     <br />
     <a href="https://github.com/lan-tianxiang/">
@@ -24,9 +24,9 @@
   <p align="center">
     <a href="#demo">查看 Demo</a>
     ·
-    <a href="https://github.com/lan-tianxiang/jd_shell/issues/new/choose">报告 Bug</a>
+    <a href="https://github.com/lan-tianxiang/js_tool/issues/new/choose">报告 Bug</a>
     ·
-    <a href="https://github.com/lan-tianxiang/jd_shell/issues/new/choose">请求增加功能</a>
+    <a href="https://github.com/lan-tianxiang/js_tool/issues/new/choose">请求增加功能</a>
   </p>
 </p>
 <p align="center">喜欢这个项目？请考虑<a href="">捐赠❤</a>来帮助它完善！
@@ -74,26 +74,26 @@
 
 ## `Linux`
 
-- [Debian/Ubuntu/Armbian/OpenMediaVault等Debian系](https://github.com/lan-tianxiang/jd_shell/wiki/Linux)  🔻
+- [Debian/Ubuntu/Armbian/OpenMediaVault等Debian系](https://github.com/lan-tianxiang/js_tool/wiki/Linux)  🔻
 
-- [CentOS/RedHat/Fedora等红帽系](https://github.com/lan-tianxiang/jd_shell/wiki/Linux)  🔻
+- [CentOS/RedHat/Fedora等红帽系](https://github.com/lan-tianxiang/js_tool/wiki/Linux)  🔻
 
-- [Android等使用Termux模拟Linux的系统](https://github.com/lan-tianxiang/jd_shell/wiki/Android)  🔻
+- [Android等使用Termux模拟Linux的系统](https://github.com/lan-tianxiang/js_tool/wiki/Android)  🔻
 
-- [OpenWRT、MacOs等类UNIX系统](https://github.com/lan-tianxiang/jd_shell/wiki/Unix)  🔻
+- [OpenWRT、MacOs等类UNIX系统](https://github.com/lan-tianxiang/js_tool/wiki/Unix)  🔻
 
-## `Docker` <a href="https://github.com/lan-tianxiang/jd_shell/actions"><img alt="Docker Built" src="https://github.com/lan-tianxiang/jd_shell/workflows/Built_JD_Shell_To_Docker/badge.svg" /></a>
+## `Docker` <a href="https://github.com/lan-tianxiang/js_tool/actions"><img alt="Docker Built" src="https://github.com/lan-tianxiang/js_tool/workflows/Built_JD_Shell_To_Docker/badge.svg" /></a>
 
-- [Docker](https://github.com/lan-tianxiang/jd_shell/wiki/Docker)  🔻
+- [Docker](https://github.com/lan-tianxiang/js_tool/wiki/Docker)  🔻
 
 ## `Windows10` 
 
-- [Win10安装 WSL Ubuntu](https://github.com/lan-tianxiang/jd_shell/wiki/Win10)  🔻
+- [Win10安装 WSL Ubuntu](https://github.com/lan-tianxiang/js_tool/wiki/Win10)  🔻
 
 
 ***
 
-### [WIKI](https://github.com/lan-tianxiang/jd_shell/wiki/Instruction) 和各文件注释都含有大量教程，请自行翻阅❗❗
+### [WIKI](https://github.com/lan-tianxiang/js_tool/wiki/Instruction) 和各文件注释都含有大量教程，请自行翻阅❗❗
 
 <details>
 <summary> </summary>
