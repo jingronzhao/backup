@@ -1,0 +1,22 @@
+FROM node:lts-alpine
+ARG REPO=gitee
+ARG REPO_URL=$REPO.com
+ARG JS_TOOL_URL=https://gitee.com/highdimen/js_tool.git
+ARG JS_TOOL_BRANCH=A1
+ENV LANG=zh_CN.UTF-8 \
+    SHELL=/bin/bash \
+    PS1='\u@\h:\w $ ' \
+    JD_DIR=/root/jd \
+    ENABLE_TG_BOT=false
+WORKDIR $JD_DIR
+RUN sed -i 's/dl-cdn.alpinelinux.org/mirrors.ustc.edu.cn/g' /etc/apk/repositories \
+    && apk add --no-cache bash git wget curl nano perl openssh-client \
+    && rm -rf /var/cache/apk/* \
+    && ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime \
+    && echo "Asia/Shanghai" > /etc/timezone \
+    && mkdir -p /root/.ssh \
+    && ssh-keyscan $REPO_URL > /root/.ssh/known_hosts \
+    && git clone -b $JS_TOOL_BRANCH $JS_TOOL_URL $JD_DIR \
+    && npm install -g pm2 --registry=https://registry.npm.taobao.org \
+    && rm -rf /root/.npm
+ENTRYPOINT ["docker-entrypoint.sh"]
