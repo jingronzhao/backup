@@ -2,9 +2,11 @@
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=lan-tianxiang&show_icons=true&theme=radical&repo=jd_shell)](https://github.com/lan-tianxiang/js_tool)
 -->
 
+### 新版本加入账号验证机制，请即将使用新版本的用户加QQ群967451175，添加授权
+
 <p align="center">
  <img width="100px" src="https://res.cloudinary.com/anuraghazra/image/upload/v1594908242/logo_ccswme.svg" align="center" alt="GitHub Readme Stats" />
- <h2 align="center">JS TOOL</h2>
+ <h2 align="center">JS SHELL</h2>
  <p align="center">自动化一键完成JS库管理</p>
 </p>
   <p align="center">
@@ -55,16 +57,17 @@
 ##### ☣请各位不要传播！！☣
 
 ### 通知
-- __2021/3/31 9:00 `Docker重要通知`__
-修复Docker遗留的隐藏BUG，为了保持docker和linux修复脚本的一致，请所有使用`Docker`重新安装一键脚本，选择删除已部署的镜像即可。
+- __2021/4/11 9:00 `ALL重要通知`__
+此JD_SHELL正式停止更新，新版本请查看 https://github.com/lan-tianxiang/js_tool ！
+
 
 - __2021/3/30 9:00 `长期`__
 ㅤ有好用的第三方脚本欢迎提交到https://github.com/lan-tianxiang/jd_scripts
 
 ## 开发行程
 
-- __2021/4/5 12:00 `完成多账户并发运行任务功能`__
-- __2021/4/10 12:00 `对结构优化，减少执行文件`__
+- __2021/4/5 12:00 `完成多账户并发运行任务功能（完成）`__
+- __2021/4/10 12:00 `对结构优化，减少执行文件（完成）`__
 - __2021/4/15 12:00 `不知道要更什么功能，你们来提！！！`__
 - __2021/4/15 12:00 `尚待继续！！！`__
 
@@ -110,10 +113,10 @@ QQ群：967451175
 
 
 ## 更新日志
-
+<details>
+<summary> </summary>
+ 
 > 只记录大的更新，小修小改不记录。
-
-2021-04-01, 新增在线SHELL调试功能，具体查看WIKI，Docker用户不支持
 
 2021-03-30, 修复Docker遗留的隐藏BUG，保持docker和linux修复脚本的一致
 
@@ -128,4 +131,4 @@ QQ群：967451175
 2020-01-21，增加shylocks/Loon脚本。
 
 2021-01-15，如果本机上安装了pm2，则挂机程序以pm2启动，否则以nohup启动。
-
+</details>
