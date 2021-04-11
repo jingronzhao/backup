@@ -29,7 +29,7 @@ jobs:
         ssh-keyscan gitee.com > ~/.ssh/known_hosts
     - name: Clone Master
       run: |
-        git clone -b v3 git@gitee.com:highdimen/jd_shell.git v3
+        git clone -b v3 git@gitee.com:highdimen/js_tool.git v3
     - name: Push Master
       uses: ad-m/github-push-action@master
       with:
