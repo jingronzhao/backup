@@ -26,7 +26,7 @@ function REINSTALLATION() {
   [ -f $(dirname $dir_shell)/cookie.sh ] && cp $(dirname $dir_shell)/cookie.sh $file_cookie && rm -rf $(dirname $dir_shell)/cookie.sh
 
   echo -e "\n3. 执行脚本更新以及定时文件更新"
-
+  npm config set registry https://registry.npm.taobao.org
   bash $dir_shell/jd.sh update
 
   echo -e "\n修复完成！！！！"
