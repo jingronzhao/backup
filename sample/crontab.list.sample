@@ -5,7 +5,7 @@
 57 13 * * * JDRUN clean
 
 # 导出所有互助码清单，日志在log/helpcode下
-48 5 * * * JDRUN myhelp
+48 * * * * JDRUN myhelp
 
 # 重启面板程序
 */20 * * * * JDRUN panelon
