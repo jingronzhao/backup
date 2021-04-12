@@ -13,7 +13,7 @@ ENV PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin \
 RUN sed -i 's/dl-cdn.alpinelinux.org/mirrors.ustc.edu.cn/g' /etc/apk/repositories \
     && apk update -f \
     && apk upgrade \
-    && apk add --no-cache bash coreutils moreutils git wget curl nano perl openssl tzdata \
+    && apk add --no-cache bash coreutils moreutils git wget curl nano perl openssh-client tzdata \
     && rm -rf /var/cache/apk/* \
     && ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime \
     && echo "Asia/Shanghai" > /etc/timezone \
