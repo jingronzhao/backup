@@ -22,6 +22,7 @@ RUN sed -i 's/dl-cdn.alpinelinux.org/mirrors.ustc.edu.cn/g' /etc/apk/repositorie
     && git clone -b $JS_TOOL_BRANCH $JS_TOOL_URL $JD_DIR \
     && cd ${JD_DIR}/ \
     && bash jd.sh update \
+    && bash jd.sh panelon \
     && npm install -g pm2 --registry=https://registry.npm.taobao.org \
     && rm -rf /root/.npm
 WORKDIR $JD_DIR
