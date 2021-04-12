@@ -8,7 +8,7 @@
 48 5 * * * JDRUN myhelp
 
 # 重启面板程序
-20 * * * * JDRUN panelon
+*/20 * * * * JDRUN panelon
 
 # 重启挂机程序
 # 33 13 * * * JDRUN hangup
