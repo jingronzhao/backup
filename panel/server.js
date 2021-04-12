@@ -828,6 +828,6 @@ app.get('/api/scripts/:dir/:file', function (request, response) {
 
 checkConfigFile()
 
-app.listen(9998, () => {
-    console.log('应用正在监听 9998 端口!');
+app.listen(5678, () => {
+    console.log('应用正在监听 5678 端口!');
 });
