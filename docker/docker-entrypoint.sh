@@ -16,10 +16,10 @@ if [ ! -d $JD_DIR/thirdpard ]; then
 fi
 
 echo -e "\n======================== 2. 更新源代码 ========================\n"
-jd update
+bash $JD_DIR/jd.sh update
 
 echo -e "容器启动成功...\n"
-jd panelon
+bash $JD_DIR/jd.sh panelon
 
 crond -f
 
