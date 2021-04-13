@@ -41,15 +41,16 @@
             <header>
                 <h1>脚本执行工具</h1>
                 <div style="margin-left: 0.5em;">
-                    <button id="wrap" class="cmd-btn" title="切换换行">切换换行</button><button id="move-bottom" class="cmd-btn"
-                        title="跳转底部">跳转底部</button><button id="update" title="更新脚本文件">更新脚本文件</button><button
-                        id="jd_get_share_code" class="cmd-btn" title="获取互助码">获取互助码</button><button
-                        id="export_sharecodes" title="格式化所有互助码">格式化导出互助码</button><button id="jd.sh clean"
-                        title="删除日志">删除日志</button><button id="jd_crazy_joy_coin" class="cmd-btn"
-                        title="运行挂机活动">运行挂机活动</button><button id="hangup"
-                        title="启动/重启后台挂机程序">启动/重启后台挂机程序</button><button id="crazy_joy_coin"
-                        title="停止后台挂机程序">停止后台挂机程序</button><button id="resetpwd"
-                        title="重置控制面板用户名和密码">重置控制面板用户名和密码</button>
+                    <button id="wrap" class="cmd-btn" title="切换换行">切换换行</button>
+                    <button id="move-bottom" class="cmd-btn" title="跳转底部">跳转底部</button>
+                    <button id="update" title="更新脚本文件">更新脚本文件</button>
+                    <button id="jd_get_share_code" class="cmd-btn" title="获取互助码">获取互助码</button>
+                    <button id="export_sharecodes" title="格式化所有互助码">输出并更新互助码</button>
+                    <button id="jd_clean" title="删除日志">删除日志</button>
+                    <button id="jd_crazy_joy_coin" class="cmd-btn" title="运行挂机活动">运行挂机活动</button>
+                    <button id="hangup" title="启动/重启后台挂机程序">启动/重启后台挂机程序</button>
+                    <button id="crazy_joy_coin" title="停止后台挂机程序">停止后台挂机程序</button>
+                    <button id="resetpwd" title="重置控制面板用户名和密码">重置控制面板用户名和密码</button>
                     <br />
                     <button id="jd_list" class="cmd-btn" title="列出活动脚本">列出活动脚本</button><button id="jd_bean_change"
                         class="cmd-btn" title="京豆变动通知">京豆变动通知</button><button id="jd_unsubscribe" class="cmd-btn"
@@ -136,7 +137,7 @@
             });
 
 
-            $('#update, #export_sharecodes, #hangup, #rm_log, #resetpwd, #jd_delCoupon, #crazy_joy_coin, #run_all')
+            $('#update, #export_sharecodes, #hangup, #jd_clean, #resetpwd, #jd_delCoupon, #crazy_joy_coin, #run_all')
                 .click(function () {
                     let confirmTxt, cmd;
                     switch (this.id) {
@@ -146,15 +147,15 @@
                             break;
                         case 'export_sharecodes':
                             confirmTxt = '确认格式化导出互助码？';
-                            cmd = `bash ${this.id}.sh`;
+                            cmd = `bash jd.sh myhelp`;
                             break;
                         case 'hangup':
                             confirmTxt = '确认启动/重启挂机程序？';
                             cmd = `bash jd.sh ${this.id}`;
                             break;
-                        case 'rm_log':
+                        case 'jd_clean':
                             confirmTxt = '确认删除日志？';
-                            cmd = `bash ${this.id}.sh`;
+                            cmd = `bash jd.sh clean`;
                             break;
                         case 'resetpwd':
                             confirmTxt = '确认重置用户名与密码？';
