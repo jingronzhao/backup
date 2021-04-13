@@ -45,7 +45,7 @@
                     <button id="move-bottom" class="cmd-btn" title="跳转底部">跳转底部</button>
                     <button id="update" title="更新脚本文件">更新脚本文件</button>
                     <button id="jd_get_share_code" class="cmd-btn" title="获取互助码">获取互助码</button>
-                    <button id="export_sharecodes" title="格式化所有互助码">输出并更新互助码</button>
+                    <button id="export_sharecodes" title="格式化所有互助码">更新并输出互助码</button>
                     <button id="jd_clean" title="删除日志">删除日志</button>
                     <button id="jd_crazy_joy_coin" class="cmd-btn" title="运行挂机活动">运行挂机活动</button>
                     <button id="hangup" title="启动/重启后台挂机程序">启动/重启后台挂机程序</button>
@@ -146,7 +146,7 @@
                             cmd = `bash jd.sh ${this.id}`;
                             break;
                         case 'export_sharecodes':
-                            confirmTxt = '确认格式化导出互助码？';
+                            confirmTxt = '更新并输出互助码？';
                             cmd = `bash jd.sh myhelp`;
                             break;
                         case 'hangup':
