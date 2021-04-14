@@ -219,7 +219,7 @@ if [ $NewImage = true ]; then
     if [ $GetImageType = "Local" ]; then
         rm -rf $WorkDir
         mkdir -p $WorkDir
-        wget -q https://gitee.com/highdimen/js_tool/raw/docker/docker/Dockerfile -O $WorkDir/Dockerfile
+        wget -q https://gitee.com/highdimen/js_tool/raw/A1/docker/docker/Dockerfile -O $WorkDir/Dockerfile
         sed -i 's,github.com,github.com.cnpmjs.org,g' $WorkDir/Dockerfile
         sed -i 's,npm install,npm install --registry=https://registry.npm.taobao.org,g' $WorkDir/Dockerfile
         docker build -t $DockerImage $WorkDir > $ShellDir/build_jd_image.log
