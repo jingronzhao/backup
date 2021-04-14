@@ -9,9 +9,6 @@ ENV_PATH=
 # 导出所有互助码清单，日志在log/helpcode下
 48 * * * * JDRUN myhelp
 
-# 重启面板程序
-20 */2 * * * JDRUN panelon
-
 # 重启挂机程序
 # 33 13 * * * JDRUN hangup
 
