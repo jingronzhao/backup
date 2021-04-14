@@ -19,7 +19,7 @@ cd $(dirname $dir_shell)
 function REINSTALLATION() {
   echo -e "\n1. 获取源码"
 
-  git clone git@gitee.com:highdimen/js_tool.git $dir_shell
+  git clone https://gitee.com/highdimen/js_tool.git $dir_shell
 
   echo -e "\n2. 还原配置文件"
 
