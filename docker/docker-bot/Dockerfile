@@ -60,4 +60,4 @@ RUN sed -i 's/dl-cdn.alpinelinux.org/mirrors.aliyun.com/g' /etc/apk/repositories
     && ln -sf /usr/bin/python3 /usr/bin/python \
     && cd $JD_DIR/bot \
     && pip3 install -r requirements.txt
-ENTRYPOINT ["docker-entrypoint.sh"]
+ENTRYPOINT bash $JD_DIR/docker/docker-bot/docker-entrypoint.sh
