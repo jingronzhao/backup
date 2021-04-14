@@ -615,6 +615,7 @@ app.post('/auth', function (request, response) {
                 response.send({ err: 0 });
             } else {
                 response.send({ err: 1, msg: authError });
+                //setTimeout(function() { callback(null); }, 8000);
             }
         } else {
             response.send({ err: 1, msg: "请输入用户名密码!" });
