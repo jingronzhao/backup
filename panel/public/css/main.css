@@ -350,7 +350,7 @@ nav .active a {
     position: static;
 }
 
-/* 对比工具差异处颜色 */
+/* 更新工具差异处颜色 */
 .CodeMirror-merge-r-chunk {
     background: #1E411F
 }
