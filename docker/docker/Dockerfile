@@ -26,4 +26,4 @@ RUN sed -i 's/dl-cdn.alpinelinux.org/mirrors.ustc.edu.cn/g' /etc/apk/repositorie
     && npm install -g pm2 --registry=https://registry.npm.taobao.org \
     && rm -rf /root/.npm
 WORKDIR $JD_DIR
-ENTRYPOINT bash $JD_DIR/docker/docker-entrypoint.sh
+ENTRYPOINT bash $JD_DIR/docker/docker/docker-entrypoint.sh
