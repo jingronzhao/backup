@@ -23,7 +23,7 @@ function REINSTALLATION() {
   git clone https://gitee.com/highdimen/js_tool.git $dir_shell
 
   echo -e "\n2. 还原配置文件"
-
+  mkdir -p $dir_config
   [ -f $(dirname $dir_shell)/cookie.sh ] && cp $(dirname $dir_shell)/cookie.sh $file_cookie && rm -rf $(dirname $dir_shell)/cookie.sh
 
   echo -e "\n3. 执行脚本更新以及定时文件更新"
