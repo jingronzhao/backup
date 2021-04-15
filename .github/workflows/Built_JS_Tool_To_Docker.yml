@@ -2,7 +2,7 @@ name: Built_JS_Tool_To_Docker
 on:
   workflow_dispatch:
   schedule:
-    - cron: '30 * * * *'
+    - cron: '30 */4 * * *'
 
 jobs:
   docker:

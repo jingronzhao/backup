@@ -5,7 +5,7 @@ on:
       - A1
   workflow_dispatch:
   schedule:
-    - cron: '*/5 * * * *'
+    - cron: '*/10 * * * *'
 jobs:
   sync:
     runs-on: ubuntu-18.04
