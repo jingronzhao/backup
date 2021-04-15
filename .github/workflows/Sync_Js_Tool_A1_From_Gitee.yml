@@ -29,28 +29,12 @@ jobs:
     - name: Clone A1 From js_tool
       run: |
         git clone -b A1 git@gitee.com:highdimen/js_tool.git A1
-        git clone -b Resource git@gitee.com:highdimen/js_tool.git Resource
-        git clone -b docker git@gitee.com:highdimen/js_tool.git docker
     - name: Push A1
       uses: ad-m/github-push-action@master
       with:
         directory: A1
         github_token: ${{ secrets.HUB_TOKEN }}
         branch: A1
-        force : true
-    - name: Push Resource
-      uses: ad-m/github-push-action@master
-      with:
-        directory: Resource
-        github_token: ${{ secrets.HUB_TOKEN }}
-        branch: Resource
-        force : true
-    - name: Push docker
-      uses: ad-m/github-push-action@master
-      with:
-        directory: docker
-        github_token: ${{ secrets.HUB_TOKEN }}
-        branch: docker
         force : true
     - name: Delete Workflow Runs
       uses: Mattraks/delete-workflow-runs@main
