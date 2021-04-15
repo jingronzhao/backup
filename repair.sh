@@ -13,6 +13,7 @@ file_cookie=$dir_config/cookie.sh
 [ -s $file_cookie ] && cp $file_cookie $(dirname $dir_shell)/cookie.sh && echo "备份cookie成功"
 pkill -9 node
 bash $dir_shell/jd.sh paneloff
+crontab -r
 rm -rf $dir_shell
 cd $(dirname $dir_shell)
 
