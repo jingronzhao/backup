@@ -103,6 +103,10 @@ INSTALLATION_CLONE() {
   crontab -l >$JdDir/old_crontab
   npm config set registry https://registry.npm.taobao.org
   echo -e "\n3. 执行 git_pull.sh 进行脚本更新以及定时文件更新"
+  [ ! -f $JdDir/config/config.sh ] && cp -f $JdDir/sample/config.sh.sample $JdDir/config/config.sh
+  [ ! -f $JdDir/config/cookie.sh ] && cp -f $JdDir/sample/cookie.sh.sample $JdDir/config/cookie.sh
+  [ ! -f $JdDir/config/crontab.list ] && cp -f $$JdDir/sample/crontab.list.sample $JdDir/config/crontab.list
+  [ ! -f $JdDir/config/sharecode.sh ] && cp -f $JdDir/sample/sharecode.sh.sample $JdDir/config/sharecode.sh
   bash $JdDir/jd.sh update
 
   [ ! -x "$(command -v pm2)" ] && echo "正在安装pm2" && npm install pm2@latest -g
@@ -112,7 +116,6 @@ INSTALLATION_CLONE() {
 
   echo -e "\n安装完成！！！！"
 }
-
 
 TG_BOT() {
   echo -e "\n 是否启用TG机器人功能，需额外占据200mb左右的空间，可能出现占用较大运行内存，cpu资源加重等情况"

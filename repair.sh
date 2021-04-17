@@ -25,6 +25,10 @@ function REINSTALLATION() {
   echo -e "\n2. 还原配置文件"
   mkdir -p $dir_config
   [ -f $(dirname $dir_shell)/cookie.sh ] && cp -rf $(dirname $dir_shell)/cookie.sh $file_cookie && rm -rf $(dirname $dir_shell)/cookie.sh && echo "还原配置文件成功"
+  [ ! -f $dir_shell/config/config.sh ] && cp -f $dir_shell/sample/config.sh.sample $dir_shell/config/config.sh
+  [ ! -f $dir_shell/config/cookie.sh ] && cp -f $dir_shell/sample/cookie.sh.sample $dir_shell/config/cookie.sh
+  [ ! -f $dir_shell/config/crontab.list ] && cp -f $$dir_shell/sample/crontab.list.sample $dir_shell/config/crontab.list
+  [ ! -f $dir_shell/config/sharecode.sh ] && cp -f $dir_shell/sample/sharecode.sh.sample $dir_shell/config/sharecode.sh
 
   echo -e "\n3. 执行脚本更新以及定时文件更新"
   npm config set registry https://registry.npm.taobao.org
