@@ -1,21 +1,13 @@
 #!/bin/bash
 set -e
 
-echo -e "\n======================== 1. 检测文件夹 ========================\n"
-if [ ! -d $JD_DIR/config ]; then
-  echo -e "没有映射config配置目录给本容器，在容器内创建该文件夹\n"
-  mkdir -p /root/jd/config
-fi
-if [ ! -d $JD_DIR/log ]; then
-  echo -e "没有映射log日志目录给本容器，在容器内创建该文件夹\n"
-  mkdir -p /root/jd/log
-fi
-if [ ! -d $JD_DIR/thirdpard ]; then
-  echo -e "没有映射thirdpard脚本目录给本容器，在容器内创建该文件夹\n"
-  mkdir -p /root/jd/thirdpard
-fi
 
 crond
+
+  [ ! -f $JdDir/config/config.sh ] && cp -f $JdDir/sample/config.sh.sample $JdDir/config/config.sh
+  [ ! -f $JdDir/config/cookie.sh ] && cp -f $JdDir/sample/cookie.sh.sample $JdDir/config/cookie.sh
+  [ ! -f $JdDir/config/crontab.list ] && cp -f $$JdDir/sample/crontab.list.sample $JdDir/config/crontab.list
+  [ ! -f $JdDir/config/sharecode.sh ] && cp -f $JdDir/sample/sharecode.sh.sample $JdDir/config/sharecode.sh
 
 echo -e "\n======================== 2. 更新源代码 ========================\n"
 jd update
