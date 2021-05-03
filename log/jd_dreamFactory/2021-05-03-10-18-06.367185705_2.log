@@ -1,0 +1,52 @@
+
+🔔京喜工厂, 开始!
+
+====================共1个京东账号Cookie=========
+
+==================脚本执行- 北京时间(UTC+8)：5/3/2021, 10:18:06 AM=====================
+
+获取签名参数成功！
+fp: 8324041197223162
+token: tk01wb5a51c19a8namFuYW5nQ1pms3/yjXVD9L7CA8HQWmpe7wwXqZRleaRjfxVDfG1WnEFW6VCCSF/0h7dGj+weuePW
+enCryptMethodJD: function test(token,fingerprint,timestamp,appId,algo){const random='OvjG054/q6OH';const str=`${token}${fingerprint}${timestamp}${appId}${random}`;return algo.HmacSHA512(str,token)}
+拼团活动ID: 获取成功 mNGPTrOPluOSeZcupPI40w==
+开始获取京喜工厂配置文件
+
+由于您环境变量(DREAM_FACTORY_SHARE_CODES)里面未提供助力码，故此处运行将会给脚本内置的码进行助力，请知晓！
+共1个京东账号
+
+您提供了2个账号的京喜工厂助力码
+
+
+******开始【京东账号1】小尾巴充电宝*********
+
+【提示】京东账号1[小尾巴充电宝]京喜工厂活动未开始
+请手动去京东APP->游戏与互动->查看更多->京喜工厂 开启活动
+
+
+
+你今日还能帮好友打工（3/3）次
+
+
+【今日招工进度】0/8
+开始
+随机取20个码放到您固定的互助码后面(不影响已有固定互助)
+第1个京东账号将要助力的好友["V5LkjP4WRyjeCKR9VRwcRX0bBuTz7MEK0-E99EJ7u0k=","Bo-jnVs_m9uBvbRzraXcSA==","-OvElMzqeyeGBWazWYjI1Q==","dXca7NT1hZgiuE6009I7lg==","wLIURxdZVMDoF571b6vDEg==","vuZCh58EDjAUDu8_Oi3CgQ==","G38ivJDpfhv-lq2NFwsnDg==","LibpOYh_irxMkMJogp2BKg==","m3sdr0W2NT541r406OjeBA==","R5QUuddbRHvCA1429lx23A==","YezrpFL9YfE8JYJudWrhnA==","14s5QKIP74ww76egpV_84g==","qm5X7jAznbiwsxFFpXfVww==","_a8OLn9xdKONMk7hEUkNCg==","mXg47fhBeg3sVzH8H-vo9w==","PqUO2EQj_icYaIWlcEbumw==","uwQigaj01reVhgbZugZo4Q==","vBTcgywvmrvyiQHtFZ2v5g==","LfF5eSL8m4K8hD1b8MztSw==","kJIOM5QGLV_EyataXlJ1dQ==","uT98XWPs4N36HicP3P2_RQ==","YdYz_RYUranhEW8y9E2Qfw==","3D1W-y21r2VrI9wnGWrA3A=="]
+助力朋友[V5LkjP4WRyjeCKR9VRwcRX0bBuTz7MEK0-E99EJ7u0k=]失败：好友存储电力已达上限,暂不可打工哦~
+助力朋友[Bo-jnVs_m9uBvbRzraXcSA==]失败：亲,好友的工厂暂未开启,不能去好友工厂打工啦!
+助力朋友[-OvElMzqeyeGBWazWYjI1Q==]失败：亲,好友的工厂暂未开启,不能去好友工厂打工啦!
+助力朋友[dXca7NT1hZgiuE6009I7lg==]失败：亲,好友的工厂暂未开启,不能去好友工厂打工啦!
+助力朋友[wLIURxdZVMDoF571b6vDEg==]失败：亲,好友的工厂的工人已经满员了,不能去好友工厂打工啦!
+助力朋友[vuZCh58EDjAUDu8_Oi3CgQ==]失败：亲,好友的工厂暂未开启,不能去好友工厂打工啦!
+助力朋友[G38ivJDpfhv-lq2NFwsnDg==]失败：亲,好友的工厂的工人已经满员了,不能去好友工厂打工啦!
+助力朋友[LibpOYh_irxMkMJogp2BKg==]失败：亲,好友的工厂暂未开启,不能去好友工厂打工啦!
+助力朋友[m3sdr0W2NT541r406OjeBA==]失败：亲,好友的工厂的工人已经满员了,不能去好友工厂打工啦!
+助力朋友[R5QUuddbRHvCA1429lx23A==]失败：亲,好友的工厂暂未开启,不能去好友工厂打工啦!
+助力朋友[YezrpFL9YfE8JYJudWrhnA==]失败：亲,好友的工厂暂未开启,不能去好友工厂打工啦!
+助力朋友[14s5QKIP74ww76egpV_84g==]失败：亲,好友的工厂的工人已经满员了,不能去好友工厂打工啦!
+助力朋友[qm5X7jAznbiwsxFFpXfVww==]失败：亲,好友的工厂的工人已经满员了,不能去好友工厂打工啦!
+助力朋友[_a8OLn9xdKONMk7hEUkNCg==]失败：亲,好友的工厂的工人已经满员了,不能去好友工厂打工啦!
+助力朋友：mXg47fhBeg3sVzH8H-vo9w==成功，因一次只能助力一个，故跳出助力
+
+🔔京喜工厂, 结束! 🕛 17.278 秒
+

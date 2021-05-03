@@ -1,0 +1,99 @@
+
+🔔京东摇钱树, 开始!
+
+====================共1个京东账号Cookie=========
+
+==================脚本执行- 北京时间(UTC+8)：5/3/2021, 10:18:17 AM=====================
+
+
+****开始【京东账号1】Hobbot****
+
+初始化摇钱树个人信息
+resultCode为0
+每日签到条件查询:可以签到
+准备每日签到
+第7日签到结果:{"resultCode":0,"resultMsg":"操作成功","resultData":{"msg":"成功","code":"200","data":{"result":true}},"channelEncrypt":0}
+店铺券（49-10）领取结果：{"resultCode":0,"resultMsg":"操作成功","resultData":{"msg":"成功","code":"200","data":{"result":true,"message":"成功","code":0}},"channelEncrypt":0}
+
+❗️京东摇钱树, 错误!
+TypeError: Cannot read property 'code' of undefined
+    at Promise (/home/zhaojingrong/jd/scripts/jd_moneyTree.js:445:74)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+开始做任务userInfo了
+
+canTask::[{"workStatus":-1,"workContent":"每天来签到","prizeType":2,"mid":0,"workName":"每日签到","prizeAmount":200,"workType":1},{"workStatus":0,"workContent":"每天分享一下","prizeType":2,"mid":0,"workName":"每日分享","prizeAmount":500,"workType":2},{"workStatus":0,"workContent":"每天分享新用户来玩5次","prizeType":2,"mid":0,"workName":"每日分享新用户","prizeAmount":30000,"workType":3}]
+
+浏览任务列表taskInfo::[{"workStatus":0,"prizeType":0,"mapValues":[],"workLabel":"去完成","mid":666,"prizeAmount":1000,"workType":7},{"workStatus":0,"prizeType":0,"mapValues":[],"workLabel":"去完成","mid":667,"prizeAmount":1000,"workType":7}]
+
+三餐签到任务不在时间范围内
+开始做分享任务
+
+开始分享的动作:{"resultCode":0,"resultMsg":"操作成功","resultData":{"msg":"成功","code":"200","data":{"opMsg":"操作成功","nextStatus":1,"opResult":0}},"channelEncrypt":0}
+开始做领取分享后的奖励
+
+领取分享后的奖励:{"resultCode":0,"resultMsg":"操作成功","resultData":{"msg":"成功","code":"200","data":{"opMsg":"操作成功","opResult":0,"prizeAmount":500}},"channelEncrypt":0}
+开始做浏览任务
+missionId为666：：第1次浏览活动完成: {"resultCode":0,"resultMsg":"操作成功","resultData":{"msg":"成功","code":"200"},"channelEncrypt":0}
+missionId为666：：第2次浏览活动完成: {"resultCode":0,"resultMsg":"操作成功","resultData":{"msg":"成功","code":"200"},"channelEncrypt":0}
+missionId为666：：第3次浏览活动完成: {"resultCode":0,"resultMsg":"操作成功","resultData":{"msg":"成功","code":"200"},"channelEncrypt":0}
+missionId为666：：第4次浏览活动完成: {"resultCode":0,"resultMsg":"操作成功","resultData":{"msg":"成功","code":"200"},"channelEncrypt":0}
+missionId为666：：第5次浏览活动完成: {"resultCode":0,"resultMsg":"操作成功","resultData":{"msg":"成功","code":"200"},"channelEncrypt":0}
+missionId为666：：第6次浏览活动完成: {"resultCode":0,"resultMsg":"操作成功","resultData":{"msg":"成功","code":"200"},"channelEncrypt":0}
+missionId为666：：第7次浏览活动完成: {"resultCode":0,"resultMsg":"操作成功","resultData":{"msg":"成功","code":"200"},"channelEncrypt":0}
+浏览店铺任务结束
+开始领取浏览后的奖励
+领取浏览任务奖励成功：{"resultCode":0,"resultMsg":"操作成功","resultData":{"msg":"成功","code":"200","data":{"opMsg":"领取成功","opResult":0,"prizeAmount":1000,"nextStatus":2}},"channelEncrypt":0}
+aaa{"resultCode":0,"resultMsg":"操作成功","resultData":{"msg":"成功","code":"200","data":{"opMsg":"领取成功","opResult":0,"prizeAmount":1000,"nextStatus":2}},"channelEncrypt":0}
+开始做浏览任务
+missionId为667：：第1次浏览活动完成: {"resultCode":0,"resultMsg":"操作成功","resultData":{"msg":"成功","code":"200"},"channelEncrypt":0}
+missionId为667：：第2次浏览活动完成: {"resultCode":0,"resultMsg":"操作成功","resultData":{"msg":"成功","code":"200"},"channelEncrypt":0}
+missionId为667：：第3次浏览活动完成: {"resultCode":0,"resultMsg":"操作成功","resultData":{"msg":"成功","code":"200"},"channelEncrypt":0}
+missionId为667：：第4次浏览活动完成: {"resultCode":0,"resultMsg":"操作成功","resultData":{"msg":"成功","code":"200"},"channelEncrypt":0}
+missionId为667：：第5次浏览活动完成: {"resultCode":0,"resultMsg":"操作成功","resultData":{"msg":"成功","code":"200"},"channelEncrypt":0}
+missionId为667：：第6次浏览活动完成: {"resultCode":0,"resultMsg":"操作成功","resultData":{"msg":"成功","code":"200"},"channelEncrypt":0}
+missionId为667：：第7次浏览活动完成: {"resultCode":0,"resultMsg":"操作成功","resultData":{"msg":"成功","code":"200"},"channelEncrypt":0}
+浏览店铺任务结束
+开始领取浏览后的奖励
+领取浏览任务奖励成功：{"resultCode":0,"resultMsg":"操作成功","resultData":{"msg":"成功","code":"200","data":{"opMsg":"领取成功","opResult":0,"prizeAmount":1000,"nextStatus":2}},"channelEncrypt":0}
+aaa{"resultCode":0,"resultMsg":"操作成功","resultData":{"msg":"成功","code":"200","data":{"opMsg":"领取成功","opResult":0,"prizeAmount":1000,"nextStatus":2}},"channelEncrypt":0}
+
+收获金果成功:{"resultCode":0,"resultMsg":"操作成功","resultData":{"msg":"成功","code":"200","data":{"goToApp":false,"limitedTimeTask":false,"upgrade":false,"treeInfo":{"upgradeDemand":10000,"progressLeft":"16.9%","treeName":"7级茁壮树苗","level":7,"fruit":66124,"fruitOnTree":0,"workerSum":3,"capacity":400},"bigAwardTask":false,"fruitNumInLimitedTimeTask":0}},"channelEncrypt":0}
+
+目前金果数量66124
+卖出金果成功，获得0.07金贴
+
+金贴和金果数量：：{"resultCode":0,"resultMsg":"操作成功","resultData":{"msg":"成功","code":"200","data":{"gcAmount":44,"gaAmount":10124,"canGoldcoin":20}},"channelEncrypt":0}
+今日已偷过好友的金果了，暂无好友可偷，请明天再来
+
+
+【距离8级摇钱树还差】16.9%
+【我的金果数量】10124
+【我的金贴数量】0.44
+
+
+
+
+您未提供server酱的SCKEY，取消微信推送消息通知🚫
+
+您未提供push+推送所需的PUSH_PLUS_TOKEN，取消push+推送消息通知🚫
+
+您未提供Bark的APP推送BARK_PUSH，取消Bark推送消息通知🚫
+
+您未提供telegram机器人推送所需的TG_BOT_TOKEN和TG_USER_ID，取消telegram推送消息通知🚫
+
+您未提供钉钉机器人推送所需的DD_BOT_TOKEN或者DD_BOT_SECRET，取消钉钉推送消息通知🚫
+
+您未提供企业微信机器人推送所需的QYWX_KEY，取消企业微信推送消息通知🚫
+
+您未提供企业微信应用消息推送所需的QYWX_AM，取消企业微信应用消息推送消息通知🚫
+
+您未提供iGot的推送IGOT_PUSH_KEY，取消iGot推送消息通知🚫
+
+
+==============📣系统通知📣==============
+京东摇钱树
+账号1：Hobbot
+今日成功卖出5.6万金果，获得0.07金贴
+
+🔔京东摇钱树, 结束! 🕛 38.253 秒
+
