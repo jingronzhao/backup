@@ -1,0 +1,25 @@
+[3J[H[2J---------- System Information ----------
+ OS      : CentOS 8.2.2004
+ Arch    : x86_64 (64 Bit)
+ Kernel  : 4.18.0-193.14.2.el8_2.x86_64
+----------------------------------------
+ Auto install KMS Server
+
+ URL: https://teddysun.com/530.html
+----------------------------------------
+
+Press any key to start...or Press Ctrl+C to cancel
+Last metadata expiration check: 2:35:56 ago on Thu 26 Nov 2020 06:26:08 AM CST.
+Package gcc-8.3.1-5.el8.0.2.x86_64 is already installed.
+Package git-2.18.4-2.el8_2.x86_64 is already installed.
+Package make-1:4.2.1-10.el8.x86_64 is already installed.
+Package nss-3.53.1-11.el8_2.x86_64 is already installed.
+Package curl-7.61.1-12.el8.x86_64 is already installed.
+Package libcurl-7.61.1-12.el8.x86_64 is already installed.
+Dependencies resolved.
+Nothing to do.
+Complete!
+--2020-11-26 09:02:04--  https://raw.githubusercontent.com/teddysun/across/master/kms
+Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 151.101.228.133
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|151.101.228.133|:443... failed: Connection refused.
+[[0;31mError:[0m] Failed to download KMS Server script.
