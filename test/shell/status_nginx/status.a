@@ -1,0 +1,20 @@
+● nginx.service - The nginx HTTP and reverse proxy server
+   Loaded: loaded (/usr/lib/systemd/system/nginx.service; disabled; vendor preset: disabled)
+   Active: active (running) since Thu 2021-04-15 16:47:39 CST; 3 days ago
+  Process: 919772 ExecReload=/bin/kill -s HUP $MAINPID (code=exited, status=0/SUCCESS)
+  Process: 919959 ExecStart=/usr/sbin/nginx (code=exited, status=0/SUCCESS)
+  Process: 919958 ExecStartPre=/usr/sbin/nginx -t (code=exited, status=0/SUCCESS)
+  Process: 919956 ExecStartPre=/usr/bin/rm -f /run/nginx.pid (code=exited, status=0/SUCCESS)
+ Main PID: 919961 (nginx)
+    Tasks: 2 (limit: 10979)
+   Memory: 4.7M
+   CGroup: /system.slice/nginx.service
+           ├─919961 nginx: master process /usr/sbin/nginx
+           └─919962 nginx: worker process
+
+Apr 15 16:47:38 iZwz9j1nogjvoyfacth287Z systemd[1]: nginx.service: Succeeded.
+Apr 15 16:47:38 iZwz9j1nogjvoyfacth287Z systemd[1]: Stopped The nginx HTTP and reverse proxy server.
+Apr 15 16:47:38 iZwz9j1nogjvoyfacth287Z systemd[1]: Starting The nginx HTTP and reverse proxy server...
+Apr 15 16:47:39 iZwz9j1nogjvoyfacth287Z nginx[919958]: nginx: the configuration file /etc/nginx/nginx.conf syntax is ok
+Apr 15 16:47:39 iZwz9j1nogjvoyfacth287Z nginx[919958]: nginx: configuration file /etc/nginx/nginx.conf test is successful
+Apr 15 16:47:39 iZwz9j1nogjvoyfacth287Z systemd[1]: Started The nginx HTTP and reverse proxy server.

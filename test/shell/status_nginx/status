@@ -1,0 +1,7 @@
+#/bin/bash
+#获取当前设备服务的状态
+status=$(systemctl status nginx | sed -n '3p'| tr -d ' ' | cut -c8-13) 
+time=$(date | awk -F ' ' '{print $4}') 
+echo $status
+echo $time
+echo "status of nginx: ${status} --${time}">>/home/zhaojingrong/status/nginx

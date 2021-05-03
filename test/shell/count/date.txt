@@ -1,0 +1,799 @@
+No.     Time           Source                Destination           Protocol Length Info
+     22 4.458042000    192.168.100.147       192.168.100.135       DNS      85     Standard query 0x9646  A teredo.ipv6.microsoft.com
+
+Frame 22: 85 bytes on wire (680 bits), 85 bytes captured (680 bits) on interface 0
+Ethernet II, Src: fa:16:3e:e4:46:91 (fa:16:3e:e4:46:91), Dst: fa:16:3e:15:ce:f1 (fa:16:3e:15:ce:f1)
+Internet Protocol Version 4, Src: 192.168.100.147 (192.168.100.147), Dst: 192.168.100.135 (192.168.100.135)
+User Datagram Protocol, Src Port: 53207 (53207), Dst Port: domain (53)
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+     27 5.456186000    192.168.100.147       192.168.100.135       DNS      85     Standard query 0x9646  A teredo.ipv6.microsoft.com
+
+Frame 27: 85 bytes on wire (680 bits), 85 bytes captured (680 bits) on interface 0
+Ethernet II, Src: fa:16:3e:e4:46:91 (fa:16:3e:e4:46:91), Dst: fa:16:3e:7a:f7:51 (fa:16:3e:7a:f7:51)
+Internet Protocol Version 4, Src: 192.168.100.147 (192.168.100.147), Dst: 192.168.100.135 (192.168.100.135)
+User Datagram Protocol, Src Port: 53207 (53207), Dst Port: domain (53)
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+     30 5.456909000    192.168.100.135       192.168.100.147       ICMP     113    Destination unreachable (Port unreachable)
+
+Frame 30: 113 bytes on wire (904 bits), 113 bytes captured (904 bits) on interface 0
+Ethernet II, Src: fa:16:3e:7a:f7:51 (fa:16:3e:7a:f7:51), Dst: fa:16:3e:e4:46:91 (fa:16:3e:e4:46:91)
+Internet Protocol Version 4, Src: 192.168.100.135 (192.168.100.135), Dst: 192.168.100.147 (192.168.100.147)
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     41 9.681683000    192.168.100.135       192.168.100.147       DNS      85     Standard query response 0x9646 Server failure
+
+Frame 41: 85 bytes on wire (680 bits), 85 bytes captured (680 bits) on interface 0
+Ethernet II, Src: fa:16:3e:15:ce:f1 (fa:16:3e:15:ce:f1), Dst: fa:16:3e:e4:46:91 (fa:16:3e:e4:46:91)
+Internet Protocol Version 4, Src: 192.168.100.135 (192.168.100.135), Dst: 192.168.100.147 (192.168.100.147)
+User Datagram Protocol, Src Port: domain (53), Dst Port: 53207 (53207)
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+     42 9.681738000    192.168.100.147       192.168.100.135       ICMP     113    Destination unreachable (Port unreachable)
+
+Frame 42: 113 bytes on wire (904 bits), 113 bytes captured (904 bits) on interface 0
+Ethernet II, Src: fa:16:3e:e4:46:91 (fa:16:3e:e4:46:91), Dst: fa:16:3e:7a:f7:51 (fa:16:3e:7a:f7:51)
+Internet Protocol Version 4, Src: 192.168.100.147 (192.168.100.147), Dst: 192.168.100.135 (192.168.100.135)
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     43 10.004520000   192.168.100.147       192.168.100.135       DNS      76     Standard query 0xd1b6  A dns.msftncsi.com
+
+Frame 43: 76 bytes on wire (608 bits), 76 bytes captured (608 bits) on interface 0
+Ethernet II, Src: fa:16:3e:e4:46:91 (fa:16:3e:e4:46:91), Dst: fa:16:3e:7a:f7:51 (fa:16:3e:7a:f7:51)
+Internet Protocol Version 4, Src: 192.168.100.147 (192.168.100.147), Dst: 192.168.100.135 (192.168.100.135)
+User Datagram Protocol, Src Port: 61995 (61995), Dst Port: domain (53)
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+     44 11.003150000   192.168.100.147       192.168.100.135       DNS      76     Standard query 0xd1b6  A dns.msftncsi.com
+
+Frame 44: 76 bytes on wire (608 bits), 76 bytes captured (608 bits) on interface 0
+Ethernet II, Src: fa:16:3e:e4:46:91 (fa:16:3e:e4:46:91), Dst: fa:16:3e:7a:f7:51 (fa:16:3e:7a:f7:51)
+Internet Protocol Version 4, Src: 192.168.100.147 (192.168.100.147), Dst: 192.168.100.135 (192.168.100.135)
+User Datagram Protocol, Src Port: 61995 (61995), Dst Port: domain (53)
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+     47 12.003093000   192.168.100.147       192.168.100.135       DNS      76     Standard query 0xd1b6  A dns.msftncsi.com
+
+Frame 47: 76 bytes on wire (608 bits), 76 bytes captured (608 bits) on interface 0
+Ethernet II, Src: fa:16:3e:e4:46:91 (fa:16:3e:e4:46:91), Dst: fa:16:3e:7a:f7:51 (fa:16:3e:7a:f7:51)
+Internet Protocol Version 4, Src: 192.168.100.147 (192.168.100.147), Dst: 192.168.100.135 (192.168.100.135)
+User Datagram Protocol, Src Port: 61995 (61995), Dst Port: domain (53)
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+     52 14.003069000   192.168.100.147       192.168.100.135       DNS      76     Standard query 0xd1b6  A dns.msftncsi.com
+
+Frame 52: 76 bytes on wire (608 bits), 76 bytes captured (608 bits) on interface 0
+Ethernet II, Src: fa:16:3e:e4:46:91 (fa:16:3e:e4:46:91), Dst: fa:16:3e:7a:f7:51 (fa:16:3e:7a:f7:51)
+Internet Protocol Version 4, Src: 192.168.100.147 (192.168.100.147), Dst: 192.168.100.135 (192.168.100.135)
+User Datagram Protocol, Src Port: 61995 (61995), Dst Port: domain (53)
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+     62 18.014741000   192.168.100.147       192.168.100.135       DNS      76     Standard query 0xd1b6  A dns.msftncsi.com
+
+Frame 62: 76 bytes on wire (608 bits), 76 bytes captured (608 bits) on interface 0
+Ethernet II, Src: fa:16:3e:e4:46:91 (fa:16:3e:e4:46:91), Dst: fa:16:3e:15:ce:f1 (fa:16:3e:15:ce:f1)
+Internet Protocol Version 4, Src: 192.168.100.147 (192.168.100.147), Dst: 192.168.100.135 (192.168.100.135)
+User Datagram Protocol, Src Port: 61995 (61995), Dst Port: domain (53)
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+     92 20.827290000   192.168.100.147       192.168.100.135       DNS      79     Standard query 0x2026  A accounts.google.com
+
+Frame 92: 79 bytes on wire (632 bits), 79 bytes captured (632 bits) on interface 0
+Ethernet II, Src: fa:16:3e:e4:46:91 (fa:16:3e:e4:46:91), Dst: fa:16:3e:15:ce:f1 (fa:16:3e:15:ce:f1)
+Internet Protocol Version 4, Src: 192.168.100.147 (192.168.100.147), Dst: 192.168.100.135 (192.168.100.135)
+User Datagram Protocol, Src Port: 60855 (60855), Dst Port: domain (53)
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+     93 20.828833000   192.168.100.147       192.168.100.135       DNS      74     Standard query 0xf954  A www.google.com
+
+Frame 93: 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface 0
+Ethernet II, Src: fa:16:3e:e4:46:91 (fa:16:3e:e4:46:91), Dst: fa:16:3e:15:ce:f1 (fa:16:3e:15:ce:f1)
+Internet Protocol Version 4, Src: 192.168.100.147 (192.168.100.147), Dst: 192.168.100.135 (192.168.100.135)
+User Datagram Protocol, Src Port: 53534 (53534), Dst Port: domain (53)
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+     94 20.829849000   192.168.100.147       192.168.100.135       DNS      89     Standard query 0x55b2  A clientservices.googleapis.com
+
+Frame 94: 89 bytes on wire (712 bits), 89 bytes captured (712 bits) on interface 0
+Ethernet II, Src: fa:16:3e:e4:46:91 (fa:16:3e:e4:46:91), Dst: fa:16:3e:15:ce:f1 (fa:16:3e:15:ce:f1)
+Internet Protocol Version 4, Src: 192.168.100.147 (192.168.100.147), Dst: 192.168.100.135 (192.168.100.135)
+User Datagram Protocol, Src Port: 56187 (56187), Dst Port: domain (53)
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+    116 20.976782000   192.168.100.147       192.168.100.135       DNS      79     Standard query 0xd0cc  A clients2.google.com
+
+Frame 116: 79 bytes on wire (632 bits), 79 bytes captured (632 bits) on interface 0
+Ethernet II, Src: fa:16:3e:e4:46:91 (fa:16:3e:e4:46:91), Dst: fa:16:3e:15:ce:f1 (fa:16:3e:15:ce:f1)
+Internet Protocol Version 4, Src: 192.168.100.147 (192.168.100.147), Dst: 192.168.100.135 (192.168.100.135)
+User Datagram Protocol, Src Port: 49823 (49823), Dst Port: domain (53)
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+    124 21.837959000   192.168.100.147       192.168.100.135       DNS      79     Standard query 0x2026  A accounts.google.com
+
+Frame 124: 79 bytes on wire (632 bits), 79 bytes captured (632 bits) on interface 0
+Ethernet II, Src: fa:16:3e:e4:46:91 (fa:16:3e:e4:46:91), Dst: fa:16:3e:15:ce:f1 (fa:16:3e:15:ce:f1)
+Internet Protocol Version 4, Src: 192.168.100.147 (192.168.100.147), Dst: 192.168.100.135 (192.168.100.135)
+User Datagram Protocol, Src Port: 60855 (60855), Dst Port: domain (53)
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+    125 21.838821000   192.168.100.147       192.168.100.135       DNS      74     Standard query 0xf954  A www.google.com
+
+Frame 125: 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface 0
+Ethernet II, Src: fa:16:3e:e4:46:91 (fa:16:3e:e4:46:91), Dst: fa:16:3e:15:ce:f1 (fa:16:3e:15:ce:f1)
+Internet Protocol Version 4, Src: 192.168.100.147 (192.168.100.147), Dst: 192.168.100.135 (192.168.100.135)
+User Datagram Protocol, Src Port: 53534 (53534), Dst Port: domain (53)
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+    126 21.839824000   192.168.100.147       192.168.100.135       DNS      89     Standard query 0x55b2  A clientservices.googleapis.com
+
+Frame 126: 89 bytes on wire (712 bits), 89 bytes captured (712 bits) on interface 0
+Ethernet II, Src: fa:16:3e:e4:46:91 (fa:16:3e:e4:46:91), Dst: fa:16:3e:15:ce:f1 (fa:16:3e:15:ce:f1)
+Internet Protocol Version 4, Src: 192.168.100.147 (192.168.100.147), Dst: 192.168.100.135 (192.168.100.135)
+User Datagram Protocol, Src Port: 56187 (56187), Dst Port: domain (53)
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+    129 21.982429000   192.168.100.147       192.168.100.135       DNS      79     Standard query 0xd0cc  A clients2.google.com
+
+Frame 129: 79 bytes on wire (632 bits), 79 bytes captured (632 bits) on interface 0
+Ethernet II, Src: fa:16:3e:e4:46:91 (fa:16:3e:e4:46:91), Dst: fa:16:3e:15:ce:f1 (fa:16:3e:15:ce:f1)
+Internet Protocol Version 4, Src: 192.168.100.147 (192.168.100.147), Dst: 192.168.100.135 (192.168.100.135)
+User Datagram Protocol, Src Port: 49823 (49823), Dst Port: domain (53)
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+    137 22.839849000   192.168.100.147       192.168.100.135       DNS      79     Standard query 0x2026  A accounts.google.com
+
+Frame 137: 79 bytes on wire (632 bits), 79 bytes captured (632 bits) on interface 0
+Ethernet II, Src: fa:16:3e:e4:46:91 (fa:16:3e:e4:46:91), Dst: fa:16:3e:15:ce:f1 (fa:16:3e:15:ce:f1)
+Internet Protocol Version 4, Src: 192.168.100.147 (192.168.100.147), Dst: 192.168.100.135 (192.168.100.135)
+User Datagram Protocol, Src Port: 60855 (60855), Dst Port: domain (53)
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+    138 22.841780000   192.168.100.147       192.168.100.135       DNS      89     Standard query 0x55b2  A clientservices.googleapis.com
+
+Frame 138: 89 bytes on wire (712 bits), 89 bytes captured (712 bits) on interface 0
+Ethernet II, Src: fa:16:3e:e4:46:91 (fa:16:3e:e4:46:91), Dst: fa:16:3e:15:ce:f1 (fa:16:3e:15:ce:f1)
+Internet Protocol Version 4, Src: 192.168.100.147 (192.168.100.147), Dst: 192.168.100.135 (192.168.100.135)
+User Datagram Protocol, Src Port: 56187 (56187), Dst Port: domain (53)
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+    139 22.847137000   192.168.100.147       192.168.100.135       DNS      74     Standard query 0xf954  A www.google.com
+
+Frame 139: 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface 0
+Ethernet II, Src: fa:16:3e:e4:46:91 (fa:16:3e:e4:46:91), Dst: fa:16:3e:15:ce:f1 (fa:16:3e:15:ce:f1)
+Internet Protocol Version 4, Src: 192.168.100.147 (192.168.100.147), Dst: 192.168.100.135 (192.168.100.135)
+User Datagram Protocol, Src Port: 53534 (53534), Dst Port: domain (53)
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+    140 22.855435000   192.168.100.147       192.168.100.135       DNS      80     Standard query 0xd50e  A www.zhaojingrong.com
+
+Frame 140: 80 bytes on wire (640 bits), 80 bytes captured (640 bits) on interface 0
+Ethernet II, Src: fa:16:3e:e4:46:91 (fa:16:3e:e4:46:91), Dst: fa:16:3e:15:ce:f1 (fa:16:3e:15:ce:f1)
+Internet Protocol Version 4, Src: 192.168.100.147 (192.168.100.147), Dst: 192.168.100.135 (192.168.100.135)
+User Datagram Protocol, Src Port: 55464 (55464), Dst Port: domain (53)
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+    141 22.855988000   192.168.100.135       192.168.100.147       DNS      126    Standard query response 0xd50e  A 192.168.100.135
+
+Frame 141: 126 bytes on wire (1008 bits), 126 bytes captured (1008 bits) on interface 0
+Ethernet II, Src: fa:16:3e:15:ce:f1 (fa:16:3e:15:ce:f1), Dst: fa:16:3e:e4:46:91 (fa:16:3e:e4:46:91)
+Internet Protocol Version 4, Src: 192.168.100.135 (192.168.100.135), Dst: 192.168.100.147 (192.168.100.147)
+User Datagram Protocol, Src Port: domain (53), Dst Port: 55464 (55464)
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+    143 22.935724000   192.168.100.147       192.168.100.135       TCP      66     tmi > http [SYN] Seq=0 Win=8192 Len=0 MSS=1460 WS=256 SACK_PERM=1
+
+Frame 143: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: fa:16:3e:e4:46:91 (fa:16:3e:e4:46:91), Dst: fa:16:3e:15:ce:f1 (fa:16:3e:15:ce:f1)
+Internet Protocol Version 4, Src: 192.168.100.147 (192.168.100.147), Dst: 192.168.100.135 (192.168.100.135)
+Transmission Control Protocol, Src Port: tmi (8300), Dst Port: http (80), Seq: 0, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    144 22.936072000   192.168.100.135       192.168.100.147       TCP      66     http > tmi [SYN, ACK] Seq=0 Ack=1 Win=29200 Len=0 MSS=1460 SACK_PERM=1 WS=128
+
+Frame 144: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: fa:16:3e:15:ce:f1 (fa:16:3e:15:ce:f1), Dst: fa:16:3e:e4:46:91 (fa:16:3e:e4:46:91)
+Internet Protocol Version 4, Src: 192.168.100.135 (192.168.100.135), Dst: 192.168.100.147 (192.168.100.147)
+Transmission Control Protocol, Src Port: http (80), Dst Port: tmi (8300), Seq: 0, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    145 22.936121000   192.168.100.147       192.168.100.135       TCP      54     tmi > http [ACK] Seq=1 Ack=1 Win=131328 Len=0
+
+Frame 145: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface 0
+Ethernet II, Src: fa:16:3e:e4:46:91 (fa:16:3e:e4:46:91), Dst: fa:16:3e:15:ce:f1 (fa:16:3e:15:ce:f1)
+Internet Protocol Version 4, Src: 192.168.100.147 (192.168.100.147), Dst: 192.168.100.135 (192.168.100.135)
+Transmission Control Protocol, Src Port: tmi (8300), Dst Port: http (80), Seq: 1, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    146 22.938559000   192.168.100.147       192.168.100.135       HTTP     431    GET /favicon.ico HTTP/1.1 
+
+Frame 146: 431 bytes on wire (3448 bits), 431 bytes captured (3448 bits) on interface 0
+Ethernet II, Src: fa:16:3e:e4:46:91 (fa:16:3e:e4:46:91), Dst: fa:16:3e:15:ce:f1 (fa:16:3e:15:ce:f1)
+Internet Protocol Version 4, Src: 192.168.100.147 (192.168.100.147), Dst: 192.168.100.135 (192.168.100.135)
+Transmission Control Protocol, Src Port: tmi (8300), Dst Port: http (80), Seq: 1, Ack: 1, Len: 377
+Hypertext Transfer Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+    147 22.938793000   192.168.100.135       192.168.100.147       TCP      60     http > tmi [ACK] Seq=1 Ack=378 Win=30336 Len=0
+
+Frame 147: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface 0
+Ethernet II, Src: fa:16:3e:15:ce:f1 (fa:16:3e:15:ce:f1), Dst: fa:16:3e:e4:46:91 (fa:16:3e:e4:46:91)
+Internet Protocol Version 4, Src: 192.168.100.135 (192.168.100.135), Dst: 192.168.100.147 (192.168.100.147)
+Transmission Control Protocol, Src Port: http (80), Dst Port: tmi (8300), Seq: 1, Ack: 378, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    148 22.939635000   192.168.100.135       192.168.100.147       HTTP     553    HTTP/1.1 404 Not Found  (text/html)
+
+Frame 148: 553 bytes on wire (4424 bits), 553 bytes captured (4424 bits) on interface 0
+Ethernet II, Src: fa:16:3e:15:ce:f1 (fa:16:3e:15:ce:f1), Dst: fa:16:3e:e4:46:91 (fa:16:3e:e4:46:91)
+Internet Protocol Version 4, Src: 192.168.100.135 (192.168.100.135), Dst: 192.168.100.147 (192.168.100.147)
+Transmission Control Protocol, Src Port: http (80), Dst Port: tmi (8300), Seq: 1, Ack: 378, Len: 499
+Hypertext Transfer Protocol
+Line-based text data: text/html
+
+No.     Time           Source                Destination           Protocol Length Info
+    151 22.993298000   192.168.100.147       192.168.100.135       DNS      79     Standard query 0xd0cc  A clients2.google.com
+
+Frame 151: 79 bytes on wire (632 bits), 79 bytes captured (632 bits) on interface 0
+Ethernet II, Src: fa:16:3e:e4:46:91 (fa:16:3e:e4:46:91), Dst: fa:16:3e:15:ce:f1 (fa:16:3e:15:ce:f1)
+Internet Protocol Version 4, Src: 192.168.100.147 (192.168.100.147), Dst: 192.168.100.135 (192.168.100.135)
+User Datagram Protocol, Src Port: 49823 (49823), Dst Port: domain (53)
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+    153 23.150059000   192.168.100.135       192.168.100.147       HTTP     553    [TCP Retransmission] HTTP/1.1 404 Not Found  (text/html)
+
+Frame 153: 553 bytes on wire (4424 bits), 553 bytes captured (4424 bits) on interface 0
+Ethernet II, Src: fa:16:3e:15:ce:f1 (fa:16:3e:15:ce:f1), Dst: fa:16:3e:e4:46:91 (fa:16:3e:e4:46:91)
+Internet Protocol Version 4, Src: 192.168.100.135 (192.168.100.135), Dst: 192.168.100.147 (192.168.100.147)
+Transmission Control Protocol, Src Port: http (80), Dst Port: tmi (8300), Seq: 1, Ack: 378, Len: 499
+Hypertext Transfer Protocol
+Line-based text data: text/html
+
+No.     Time           Source                Destination           Protocol Length Info
+    154 23.150108000   192.168.100.147       192.168.100.135       TCP      66     tmi > http [ACK] Seq=378 Ack=500 Win=130816 Len=0 SLE=1 SRE=500
+
+Frame 154: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: fa:16:3e:e4:46:91 (fa:16:3e:e4:46:91), Dst: fa:16:3e:15:ce:f1 (fa:16:3e:15:ce:f1)
+Internet Protocol Version 4, Src: 192.168.100.147 (192.168.100.147), Dst: 192.168.100.135 (192.168.100.135)
+Transmission Control Protocol, Src Port: tmi (8300), Dst Port: http (80), Seq: 378, Ack: 500, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    175 24.858443000   192.168.100.147       192.168.100.135       DNS      79     Standard query 0x2026  A accounts.google.com
+
+Frame 175: 79 bytes on wire (632 bits), 79 bytes captured (632 bits) on interface 0
+Ethernet II, Src: fa:16:3e:e4:46:91 (fa:16:3e:e4:46:91), Dst: fa:16:3e:15:ce:f1 (fa:16:3e:15:ce:f1)
+Internet Protocol Version 4, Src: 192.168.100.147 (192.168.100.147), Dst: 192.168.100.135 (192.168.100.135)
+User Datagram Protocol, Src Port: 60855 (60855), Dst Port: domain (53)
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+    176 24.858577000   192.168.100.147       192.168.100.135       DNS      89     Standard query 0x55b2  A clientservices.googleapis.com
+
+Frame 176: 89 bytes on wire (712 bits), 89 bytes captured (712 bits) on interface 0
+Ethernet II, Src: fa:16:3e:e4:46:91 (fa:16:3e:e4:46:91), Dst: fa:16:3e:15:ce:f1 (fa:16:3e:15:ce:f1)
+Internet Protocol Version 4, Src: 192.168.100.147 (192.168.100.147), Dst: 192.168.100.135 (192.168.100.135)
+User Datagram Protocol, Src Port: 56187 (56187), Dst Port: domain (53)
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+    177 24.874119000   192.168.100.147       192.168.100.135       DNS      74     Standard query 0xf954  A www.google.com
+
+Frame 177: 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface 0
+Ethernet II, Src: fa:16:3e:e4:46:91 (fa:16:3e:e4:46:91), Dst: fa:16:3e:15:ce:f1 (fa:16:3e:15:ce:f1)
+Internet Protocol Version 4, Src: 192.168.100.147 (192.168.100.147), Dst: 192.168.100.135 (192.168.100.135)
+User Datagram Protocol, Src Port: 53534 (53534), Dst Port: domain (53)
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+    181 25.014837000   192.168.100.147       192.168.100.135       DNS      79     Standard query 0xd0cc  A clients2.google.com
+
+Frame 181: 79 bytes on wire (632 bits), 79 bytes captured (632 bits) on interface 0
+Ethernet II, Src: fa:16:3e:e4:46:91 (fa:16:3e:e4:46:91), Dst: fa:16:3e:15:ce:f1 (fa:16:3e:15:ce:f1)
+Internet Protocol Version 4, Src: 192.168.100.147 (192.168.100.147), Dst: 192.168.100.135 (192.168.100.135)
+User Datagram Protocol, Src Port: 49823 (49823), Dst Port: domain (53)
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+    200 26.827757000   192.168.100.147       192.168.100.135       DNS      79     Standard query 0x0492  A accounts.google.com
+
+Frame 200: 79 bytes on wire (632 bits), 79 bytes captured (632 bits) on interface 0
+Ethernet II, Src: fa:16:3e:e4:46:91 (fa:16:3e:e4:46:91), Dst: fa:16:3e:15:ce:f1 (fa:16:3e:15:ce:f1)
+Internet Protocol Version 4, Src: 192.168.100.147 (192.168.100.147), Dst: 192.168.100.135 (192.168.100.135)
+User Datagram Protocol, Src Port: 54265 (54265), Dst Port: domain (53)
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+    201 26.843658000   192.168.100.147       192.168.100.135       DNS      74     Standard query 0x16f1  A www.google.com
+
+Frame 201: 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface 0
+Ethernet II, Src: fa:16:3e:e4:46:91 (fa:16:3e:e4:46:91), Dst: fa:16:3e:15:ce:f1 (fa:16:3e:15:ce:f1)
+Internet Protocol Version 4, Src: 192.168.100.147 (192.168.100.147), Dst: 192.168.100.135 (192.168.100.135)
+User Datagram Protocol, Src Port: 55690 (55690), Dst Port: domain (53)
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+    202 26.843962000   192.168.100.147       192.168.100.135       DNS      89     Standard query 0x845a  A clientservices.googleapis.com
+
+Frame 202: 89 bytes on wire (712 bits), 89 bytes captured (712 bits) on interface 0
+Ethernet II, Src: fa:16:3e:e4:46:91 (fa:16:3e:e4:46:91), Dst: fa:16:3e:15:ce:f1 (fa:16:3e:15:ce:f1)
+Internet Protocol Version 4, Src: 192.168.100.147 (192.168.100.147), Dst: 192.168.100.135 (192.168.100.135)
+User Datagram Protocol, Src Port: 65007 (65007), Dst Port: domain (53)
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+    216 26.985642000   192.168.100.147       192.168.100.135       DNS      79     Standard query 0x1378  A clients2.google.com
+
+Frame 216: 79 bytes on wire (632 bits), 79 bytes captured (632 bits) on interface 0
+Ethernet II, Src: fa:16:3e:e4:46:91 (fa:16:3e:e4:46:91), Dst: fa:16:3e:15:ce:f1 (fa:16:3e:15:ce:f1)
+Internet Protocol Version 4, Src: 192.168.100.147 (192.168.100.147), Dst: 192.168.100.135 (192.168.100.135)
+User Datagram Protocol, Src Port: 63826 (63826), Dst Port: domain (53)
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+    226 27.827371000   192.168.100.147       192.168.100.135       DNS      79     Standard query 0x0492  A accounts.google.com
+
+Frame 226: 79 bytes on wire (632 bits), 79 bytes captured (632 bits) on interface 0
+Ethernet II, Src: fa:16:3e:e4:46:91 (fa:16:3e:e4:46:91), Dst: fa:16:3e:15:ce:f1 (fa:16:3e:15:ce:f1)
+Internet Protocol Version 4, Src: 192.168.100.147 (192.168.100.147), Dst: 192.168.100.135 (192.168.100.135)
+User Datagram Protocol, Src Port: 54265 (54265), Dst Port: domain (53)
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+    227 27.842897000   192.168.100.147       192.168.100.135       DNS      74     Standard query 0x16f1  A www.google.com
+
+Frame 227: 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface 0
+Ethernet II, Src: fa:16:3e:e4:46:91 (fa:16:3e:e4:46:91), Dst: fa:16:3e:15:ce:f1 (fa:16:3e:15:ce:f1)
+Internet Protocol Version 4, Src: 192.168.100.147 (192.168.100.147), Dst: 192.168.100.135 (192.168.100.135)
+User Datagram Protocol, Src Port: 55690 (55690), Dst Port: domain (53)
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+    228 27.842897000   192.168.100.147       192.168.100.135       DNS      89     Standard query 0x845a  A clientservices.googleapis.com
+
+Frame 228: 89 bytes on wire (712 bits), 89 bytes captured (712 bits) on interface 0
+Ethernet II, Src: fa:16:3e:e4:46:91 (fa:16:3e:e4:46:91), Dst: fa:16:3e:15:ce:f1 (fa:16:3e:15:ce:f1)
+Internet Protocol Version 4, Src: 192.168.100.147 (192.168.100.147), Dst: 192.168.100.135 (192.168.100.135)
+User Datagram Protocol, Src Port: 65007 (65007), Dst Port: domain (53)
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+    232 27.942103000   192.168.100.135       192.168.100.147       TCP      60     http > tmi [FIN, ACK] Seq=500 Ack=378 Win=30336 Len=0
+
+Frame 232: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface 0
+Ethernet II, Src: fa:16:3e:15:ce:f1 (fa:16:3e:15:ce:f1), Dst: fa:16:3e:e4:46:91 (fa:16:3e:e4:46:91)
+Internet Protocol Version 4, Src: 192.168.100.135 (192.168.100.135), Dst: 192.168.100.147 (192.168.100.147)
+Transmission Control Protocol, Src Port: http (80), Dst Port: tmi (8300), Seq: 500, Ack: 378, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    233 27.942162000   192.168.100.147       192.168.100.135       TCP      54     tmi > http [ACK] Seq=378 Ack=501 Win=130816 Len=0
+
+Frame 233: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface 0
+Ethernet II, Src: fa:16:3e:e4:46:91 (fa:16:3e:e4:46:91), Dst: fa:16:3e:15:ce:f1 (fa:16:3e:15:ce:f1)
+Internet Protocol Version 4, Src: 192.168.100.147 (192.168.100.147), Dst: 192.168.100.135 (192.168.100.135)
+Transmission Control Protocol, Src Port: tmi (8300), Dst Port: http (80), Seq: 378, Ack: 501, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    234 27.983514000   192.168.100.147       192.168.100.135       DNS      79     Standard query 0x1378  A clients2.google.com
+
+Frame 234: 79 bytes on wire (632 bits), 79 bytes captured (632 bits) on interface 0
+Ethernet II, Src: fa:16:3e:e4:46:91 (fa:16:3e:e4:46:91), Dst: fa:16:3e:15:ce:f1 (fa:16:3e:15:ce:f1)
+Internet Protocol Version 4, Src: 192.168.100.147 (192.168.100.147), Dst: 192.168.100.135 (192.168.100.135)
+User Datagram Protocol, Src Port: 63826 (63826), Dst Port: domain (53)
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+    236 28.018251000   192.168.100.135       192.168.100.147       DNS      76     Standard query response 0xd1b6 Server failure
+
+Frame 236: 76 bytes on wire (608 bits), 76 bytes captured (608 bits) on interface 0
+Ethernet II, Src: fa:16:3e:15:ce:f1 (fa:16:3e:15:ce:f1), Dst: fa:16:3e:e4:46:91 (fa:16:3e:e4:46:91)
+Internet Protocol Version 4, Src: 192.168.100.135 (192.168.100.135), Dst: 192.168.100.147 (192.168.100.147)
+User Datagram Protocol, Src Port: domain (53), Dst Port: 61995 (61995)
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+    237 28.018316000   192.168.100.147       192.168.100.135       ICMP     104    Destination unreachable (Port unreachable)
+
+Frame 237: 104 bytes on wire (832 bits), 104 bytes captured (832 bits) on interface 0
+Ethernet II, Src: fa:16:3e:e4:46:91 (fa:16:3e:e4:46:91), Dst: fa:16:3e:15:ce:f1 (fa:16:3e:15:ce:f1)
+Internet Protocol Version 4, Src: 192.168.100.147 (192.168.100.147), Dst: 192.168.100.135 (192.168.100.135)
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+    248 28.783392000   192.168.100.147       192.168.100.135       TCP      54     tmi > http [FIN, ACK] Seq=378 Ack=501 Win=130816 Len=0
+
+Frame 248: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface 0
+Ethernet II, Src: fa:16:3e:e4:46:91 (fa:16:3e:e4:46:91), Dst: fa:16:3e:15:ce:f1 (fa:16:3e:15:ce:f1)
+Internet Protocol Version 4, Src: 192.168.100.147 (192.168.100.147), Dst: 192.168.100.135 (192.168.100.135)
+Transmission Control Protocol, Src Port: tmi (8300), Dst Port: http (80), Seq: 378, Ack: 501, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    250 28.783660000   192.168.100.135       192.168.100.147       TCP      60     http > tmi [ACK] Seq=501 Ack=379 Win=30336 Len=0
+
+Frame 250: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface 0
+Ethernet II, Src: fa:16:3e:15:ce:f1 (fa:16:3e:15:ce:f1), Dst: fa:16:3e:e4:46:91 (fa:16:3e:e4:46:91)
+Internet Protocol Version 4, Src: 192.168.100.135 (192.168.100.135), Dst: 192.168.100.147 (192.168.100.147)
+Transmission Control Protocol, Src Port: http (80), Dst Port: tmi (8300), Seq: 501, Ack: 379, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    252 28.827267000   192.168.100.147       192.168.100.135       DNS      79     Standard query 0x0492  A accounts.google.com
+
+Frame 252: 79 bytes on wire (632 bits), 79 bytes captured (632 bits) on interface 0
+Ethernet II, Src: fa:16:3e:e4:46:91 (fa:16:3e:e4:46:91), Dst: fa:16:3e:15:ce:f1 (fa:16:3e:15:ce:f1)
+Internet Protocol Version 4, Src: 192.168.100.147 (192.168.100.147), Dst: 192.168.100.135 (192.168.100.135)
+User Datagram Protocol, Src Port: 54265 (54265), Dst Port: domain (53)
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+    255 28.842930000   192.168.100.147       192.168.100.135       DNS      74     Standard query 0x16f1  A www.google.com
+
+Frame 255: 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface 0
+Ethernet II, Src: fa:16:3e:e4:46:91 (fa:16:3e:e4:46:91), Dst: fa:16:3e:15:ce:f1 (fa:16:3e:15:ce:f1)
+Internet Protocol Version 4, Src: 192.168.100.147 (192.168.100.147), Dst: 192.168.100.135 (192.168.100.135)
+User Datagram Protocol, Src Port: 55690 (55690), Dst Port: domain (53)
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+    256 28.842930000   192.168.100.147       192.168.100.135       DNS      89     Standard query 0x845a  A clientservices.googleapis.com
+
+Frame 256: 89 bytes on wire (712 bits), 89 bytes captured (712 bits) on interface 0
+Ethernet II, Src: fa:16:3e:e4:46:91 (fa:16:3e:e4:46:91), Dst: fa:16:3e:15:ce:f1 (fa:16:3e:15:ce:f1)
+Internet Protocol Version 4, Src: 192.168.100.147 (192.168.100.147), Dst: 192.168.100.135 (192.168.100.135)
+User Datagram Protocol, Src Port: 65007 (65007), Dst Port: domain (53)
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+    257 28.858419000   192.168.100.147       192.168.100.135       DNS      89     Standard query 0x55b2  A clientservices.googleapis.com
+
+Frame 257: 89 bytes on wire (712 bits), 89 bytes captured (712 bits) on interface 0
+Ethernet II, Src: fa:16:3e:e4:46:91 (fa:16:3e:e4:46:91), Dst: fa:16:3e:15:ce:f1 (fa:16:3e:15:ce:f1)
+Internet Protocol Version 4, Src: 192.168.100.147 (192.168.100.147), Dst: 192.168.100.135 (192.168.100.135)
+User Datagram Protocol, Src Port: 56187 (56187), Dst Port: domain (53)
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+    258 28.858419000   192.168.100.147       192.168.100.135       DNS      79     Standard query 0x2026  A accounts.google.com
+
+Frame 258: 79 bytes on wire (632 bits), 79 bytes captured (632 bits) on interface 0
+Ethernet II, Src: fa:16:3e:e4:46:91 (fa:16:3e:e4:46:91), Dst: fa:16:3e:15:ce:f1 (fa:16:3e:15:ce:f1)
+Internet Protocol Version 4, Src: 192.168.100.147 (192.168.100.147), Dst: 192.168.100.135 (192.168.100.135)
+User Datagram Protocol, Src Port: 60855 (60855), Dst Port: domain (53)
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+    259 28.874096000   192.168.100.147       192.168.100.135       DNS      74     Standard query 0xf954  A www.google.com
+
+Frame 259: 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface 0
+Ethernet II, Src: fa:16:3e:e4:46:91 (fa:16:3e:e4:46:91), Dst: fa:16:3e:15:ce:f1 (fa:16:3e:15:ce:f1)
+Internet Protocol Version 4, Src: 192.168.100.147 (192.168.100.147), Dst: 192.168.100.135 (192.168.100.135)
+User Datagram Protocol, Src Port: 53534 (53534), Dst Port: domain (53)
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+    262 28.983411000   192.168.100.147       192.168.100.135       DNS      79     Standard query 0x1378  A clients2.google.com
+
+Frame 262: 79 bytes on wire (632 bits), 79 bytes captured (632 bits) on interface 0
+Ethernet II, Src: fa:16:3e:e4:46:91 (fa:16:3e:e4:46:91), Dst: fa:16:3e:15:ce:f1 (fa:16:3e:15:ce:f1)
+Internet Protocol Version 4, Src: 192.168.100.147 (192.168.100.147), Dst: 192.168.100.135 (192.168.100.135)
+User Datagram Protocol, Src Port: 63826 (63826), Dst Port: domain (53)
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+    264 29.014652000   192.168.100.147       192.168.100.135       DNS      79     Standard query 0xd0cc  A clients2.google.com
+
+Frame 264: 79 bytes on wire (632 bits), 79 bytes captured (632 bits) on interface 0
+Ethernet II, Src: fa:16:3e:e4:46:91 (fa:16:3e:e4:46:91), Dst: fa:16:3e:15:ce:f1 (fa:16:3e:15:ce:f1)
+Internet Protocol Version 4, Src: 192.168.100.147 (192.168.100.147), Dst: 192.168.100.135 (192.168.100.135)
+User Datagram Protocol, Src Port: 49823 (49823), Dst Port: domain (53)
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+    285 30.827295000   192.168.100.147       192.168.100.135       DNS      79     Standard query 0x0492  A accounts.google.com
+
+Frame 285: 79 bytes on wire (632 bits), 79 bytes captured (632 bits) on interface 0
+Ethernet II, Src: fa:16:3e:e4:46:91 (fa:16:3e:e4:46:91), Dst: fa:16:3e:15:ce:f1 (fa:16:3e:15:ce:f1)
+Internet Protocol Version 4, Src: 192.168.100.147 (192.168.100.147), Dst: 192.168.100.135 (192.168.100.135)
+User Datagram Protocol, Src Port: 54265 (54265), Dst Port: domain (53)
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+    286 30.830072000   192.168.100.135       192.168.100.147       DNS      79     Standard query response 0x2026 Server failure
+
+Frame 286: 79 bytes on wire (632 bits), 79 bytes captured (632 bits) on interface 0
+Ethernet II, Src: fa:16:3e:15:ce:f1 (fa:16:3e:15:ce:f1), Dst: fa:16:3e:e4:46:91 (fa:16:3e:e4:46:91)
+Internet Protocol Version 4, Src: 192.168.100.135 (192.168.100.135), Dst: 192.168.100.147 (192.168.100.147)
+User Datagram Protocol, Src Port: domain (53), Dst Port: 60855 (60855)
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+    287 30.830109000   192.168.100.135       192.168.100.147       DNS      74     Standard query response 0xf954 Server failure
+
+Frame 287: 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface 0
+Ethernet II, Src: fa:16:3e:15:ce:f1 (fa:16:3e:15:ce:f1), Dst: fa:16:3e:e4:46:91 (fa:16:3e:e4:46:91)
+Internet Protocol Version 4, Src: 192.168.100.135 (192.168.100.135), Dst: 192.168.100.147 (192.168.100.147)
+User Datagram Protocol, Src Port: domain (53), Dst Port: 53534 (53534)
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+    288 30.830134000   192.168.100.135       192.168.100.147       DNS      79     Standard query response 0x0492 Server failure
+
+Frame 288: 79 bytes on wire (632 bits), 79 bytes captured (632 bits) on interface 0
+Ethernet II, Src: fa:16:3e:15:ce:f1 (fa:16:3e:15:ce:f1), Dst: fa:16:3e:e4:46:91 (fa:16:3e:e4:46:91)
+Internet Protocol Version 4, Src: 192.168.100.135 (192.168.100.135), Dst: 192.168.100.147 (192.168.100.147)
+User Datagram Protocol, Src Port: domain (53), Dst Port: 54265 (54265)
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+    289 30.830145000   192.168.100.135       192.168.100.147       DNS      74     Standard query response 0x16f1 Server failure
+
+Frame 289: 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface 0
+Ethernet II, Src: fa:16:3e:15:ce:f1 (fa:16:3e:15:ce:f1), Dst: fa:16:3e:e4:46:91 (fa:16:3e:e4:46:91)
+Internet Protocol Version 4, Src: 192.168.100.135 (192.168.100.135), Dst: 192.168.100.147 (192.168.100.147)
+User Datagram Protocol, Src Port: domain (53), Dst Port: 55690 (55690)
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+    292 30.834009000   192.168.100.135       192.168.100.147       DNS      89     Standard query response 0x55b2 Server failure
+
+Frame 292: 89 bytes on wire (712 bits), 89 bytes captured (712 bits) on interface 0
+Ethernet II, Src: fa:16:3e:15:ce:f1 (fa:16:3e:15:ce:f1), Dst: fa:16:3e:e4:46:91 (fa:16:3e:e4:46:91)
+Internet Protocol Version 4, Src: 192.168.100.135 (192.168.100.135), Dst: 192.168.100.147 (192.168.100.147)
+User Datagram Protocol, Src Port: domain (53), Dst Port: 56187 (56187)
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+    293 30.834043000   192.168.100.135       192.168.100.147       DNS      89     Standard query response 0x845a Server failure
+
+Frame 293: 89 bytes on wire (712 bits), 89 bytes captured (712 bits) on interface 0
+Ethernet II, Src: fa:16:3e:15:ce:f1 (fa:16:3e:15:ce:f1), Dst: fa:16:3e:e4:46:91 (fa:16:3e:e4:46:91)
+Internet Protocol Version 4, Src: 192.168.100.135 (192.168.100.135), Dst: 192.168.100.147 (192.168.100.147)
+User Datagram Protocol, Src Port: domain (53), Dst Port: 65007 (65007)
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+    295 30.978137000   192.168.100.135       192.168.100.147       DNS      79     Standard query response 0xd0cc Server failure
+
+Frame 295: 79 bytes on wire (632 bits), 79 bytes captured (632 bits) on interface 0
+Ethernet II, Src: fa:16:3e:15:ce:f1 (fa:16:3e:15:ce:f1), Dst: fa:16:3e:e4:46:91 (fa:16:3e:e4:46:91)
+Internet Protocol Version 4, Src: 192.168.100.135 (192.168.100.135), Dst: 192.168.100.147 (192.168.100.147)
+User Datagram Protocol, Src Port: domain (53), Dst Port: 49823 (49823)
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+    296 30.978171000   192.168.100.135       192.168.100.147       DNS      79     Standard query response 0x1378 Server failure
+
+Frame 296: 79 bytes on wire (632 bits), 79 bytes captured (632 bits) on interface 0
+Ethernet II, Src: fa:16:3e:15:ce:f1 (fa:16:3e:15:ce:f1), Dst: fa:16:3e:e4:46:91 (fa:16:3e:e4:46:91)
+Internet Protocol Version 4, Src: 192.168.100.135 (192.168.100.135), Dst: 192.168.100.147 (192.168.100.147)
+User Datagram Protocol, Src Port: domain (53), Dst Port: 63826 (63826)
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+    307 31.673164000   192.168.100.147       192.168.100.135       DNS      79     Standard query 0x6758  A accounts.google.com
+
+Frame 307: 79 bytes on wire (632 bits), 79 bytes captured (632 bits) on interface 0
+Ethernet II, Src: fa:16:3e:e4:46:91 (fa:16:3e:e4:46:91), Dst: fa:16:3e:15:ce:f1 (fa:16:3e:15:ce:f1)
+Internet Protocol Version 4, Src: 192.168.100.147 (192.168.100.147), Dst: 192.168.100.135 (192.168.100.135)
+User Datagram Protocol, Src Port: 56580 (56580), Dst Port: domain (53)
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+    308 31.673873000   192.168.100.135       192.168.100.147       DNS      79     Standard query response 0x6758 Server failure
+
+Frame 308: 79 bytes on wire (632 bits), 79 bytes captured (632 bits) on interface 0
+Ethernet II, Src: fa:16:3e:15:ce:f1 (fa:16:3e:15:ce:f1), Dst: fa:16:3e:e4:46:91 (fa:16:3e:e4:46:91)
+Internet Protocol Version 4, Src: 192.168.100.135 (192.168.100.135), Dst: 192.168.100.147 (192.168.100.147)
+User Datagram Protocol, Src Port: domain (53), Dst Port: 56580 (56580)
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+    322 32.985342000   192.168.100.147       192.168.100.135       DNS      79     Standard query 0xf9b1  A clients2.google.com
+
+Frame 322: 79 bytes on wire (632 bits), 79 bytes captured (632 bits) on interface 0
+Ethernet II, Src: fa:16:3e:e4:46:91 (fa:16:3e:e4:46:91), Dst: fa:16:3e:15:ce:f1 (fa:16:3e:15:ce:f1)
+Internet Protocol Version 4, Src: 192.168.100.147 (192.168.100.147), Dst: 192.168.100.135 (192.168.100.135)
+User Datagram Protocol, Src Port: 50379 (50379), Dst Port: domain (53)
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+    328 33.983557000   192.168.100.147       192.168.100.135       DNS      79     Standard query 0xf9b1  A clients2.google.com
+
+Frame 328: 79 bytes on wire (632 bits), 79 bytes captured (632 bits) on interface 0
+Ethernet II, Src: fa:16:3e:e4:46:91 (fa:16:3e:e4:46:91), Dst: fa:16:3e:15:ce:f1 (fa:16:3e:15:ce:f1)
+Internet Protocol Version 4, Src: 192.168.100.147 (192.168.100.147), Dst: 192.168.100.135 (192.168.100.135)
+User Datagram Protocol, Src Port: 50379 (50379), Dst Port: domain (53)
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+    332 34.250902000   192.168.100.147       192.168.100.135       DNS      79     Standard query 0xc04c  A accounts.google.com
+
+Frame 332: 79 bytes on wire (632 bits), 79 bytes captured (632 bits) on interface 0
+Ethernet II, Src: fa:16:3e:e4:46:91 (fa:16:3e:e4:46:91), Dst: fa:16:3e:15:ce:f1 (fa:16:3e:15:ce:f1)
+Internet Protocol Version 4, Src: 192.168.100.147 (192.168.100.147), Dst: 192.168.100.135 (192.168.100.135)
+User Datagram Protocol, Src Port: 53900 (53900), Dst Port: domain (53)
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+    335 34.983504000   192.168.100.147       192.168.100.135       DNS      79     Standard query 0xf9b1  A clients2.google.com
+
+Frame 335: 79 bytes on wire (632 bits), 79 bytes captured (632 bits) on interface 0
+Ethernet II, Src: fa:16:3e:e4:46:91 (fa:16:3e:e4:46:91), Dst: fa:16:3e:15:ce:f1 (fa:16:3e:15:ce:f1)
+Internet Protocol Version 4, Src: 192.168.100.147 (192.168.100.147), Dst: 192.168.100.135 (192.168.100.135)
+User Datagram Protocol, Src Port: 50379 (50379), Dst Port: domain (53)
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+    337 35.249143000   192.168.100.147       192.168.100.135       DNS      79     Standard query 0xc04c  A accounts.google.com
+
+Frame 337: 79 bytes on wire (632 bits), 79 bytes captured (632 bits) on interface 0
+Ethernet II, Src: fa:16:3e:e4:46:91 (fa:16:3e:e4:46:91), Dst: fa:16:3e:15:ce:f1 (fa:16:3e:15:ce:f1)
+Internet Protocol Version 4, Src: 192.168.100.147 (192.168.100.147), Dst: 192.168.100.135 (192.168.100.135)
+User Datagram Protocol, Src Port: 53900 (53900), Dst Port: domain (53)
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+    342 36.249124000   192.168.100.147       192.168.100.135       DNS      79     Standard query 0xc04c  A accounts.google.com
+
+Frame 342: 79 bytes on wire (632 bits), 79 bytes captured (632 bits) on interface 0
+Ethernet II, Src: fa:16:3e:e4:46:91 (fa:16:3e:e4:46:91), Dst: fa:16:3e:15:ce:f1 (fa:16:3e:15:ce:f1)
+Internet Protocol Version 4, Src: 192.168.100.147 (192.168.100.147), Dst: 192.168.100.135 (192.168.100.135)
+User Datagram Protocol, Src Port: 53900 (53900), Dst Port: domain (53)
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+    345 36.983487000   192.168.100.147       192.168.100.135       DNS      79     Standard query 0xf9b1  A clients2.google.com
+
+Frame 345: 79 bytes on wire (632 bits), 79 bytes captured (632 bits) on interface 0
+Ethernet II, Src: fa:16:3e:e4:46:91 (fa:16:3e:e4:46:91), Dst: fa:16:3e:15:ce:f1 (fa:16:3e:15:ce:f1)
+Internet Protocol Version 4, Src: 192.168.100.147 (192.168.100.147), Dst: 192.168.100.135 (192.168.100.135)
+User Datagram Protocol, Src Port: 50379 (50379), Dst Port: domain (53)
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+    352 38.249123000   192.168.100.147       192.168.100.135       DNS      79     Standard query 0xc04c  A accounts.google.com
+
+Frame 352: 79 bytes on wire (632 bits), 79 bytes captured (632 bits) on interface 0
+Ethernet II, Src: fa:16:3e:e4:46:91 (fa:16:3e:e4:46:91), Dst: fa:16:3e:15:ce:f1 (fa:16:3e:15:ce:f1)
+Internet Protocol Version 4, Src: 192.168.100.147 (192.168.100.147), Dst: 192.168.100.135 (192.168.100.135)
+User Datagram Protocol, Src Port: 53900 (53900), Dst Port: domain (53)
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+    358 38.999830000   192.168.100.147       192.168.100.135       DNS      79     Standard query 0xc421  A clients2.google.com
+
+Frame 358: 79 bytes on wire (632 bits), 79 bytes captured (632 bits) on interface 0
+Ethernet II, Src: fa:16:3e:e4:46:91 (fa:16:3e:e4:46:91), Dst: fa:16:3e:15:ce:f1 (fa:16:3e:15:ce:f1)
+Internet Protocol Version 4, Src: 192.168.100.147 (192.168.100.147), Dst: 192.168.100.135 (192.168.100.135)
+User Datagram Protocol, Src Port: 52283 (52283), Dst Port: domain (53)
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+    362 39.999157000   192.168.100.147       192.168.100.135       DNS      79     Standard query 0xc421  A clients2.google.com
+
+Frame 362: 79 bytes on wire (632 bits), 79 bytes captured (632 bits) on interface 0
+Ethernet II, Src: fa:16:3e:e4:46:91 (fa:16:3e:e4:46:91), Dst: fa:16:3e:15:ce:f1 (fa:16:3e:15:ce:f1)
+Internet Protocol Version 4, Src: 192.168.100.147 (192.168.100.147), Dst: 192.168.100.135 (192.168.100.135)
+User Datagram Protocol, Src Port: 52283 (52283), Dst Port: domain (53)
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+    364 40.265456000   192.168.100.147       192.168.100.135       DNS      79     Standard query 0x0698  A accounts.google.com
+
+Frame 364: 79 bytes on wire (632 bits), 79 bytes captured (632 bits) on interface 0
+Ethernet II, Src: fa:16:3e:e4:46:91 (fa:16:3e:e4:46:91), Dst: fa:16:3e:15:ce:f1 (fa:16:3e:15:ce:f1)
+Internet Protocol Version 4, Src: 192.168.100.147 (192.168.100.147), Dst: 192.168.100.135 (192.168.100.135)
+User Datagram Protocol, Src Port: 50760 (50760), Dst Port: domain (53)
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+    368 40.983502000   192.168.100.147       192.168.100.135       DNS      79     Standard query 0xf9b1  A clients2.google.com
+
+Frame 368: 79 bytes on wire (632 bits), 79 bytes captured (632 bits) on interface 0
+Ethernet II, Src: fa:16:3e:e4:46:91 (fa:16:3e:e4:46:91), Dst: fa:16:3e:15:ce:f1 (fa:16:3e:15:ce:f1)
+Internet Protocol Version 4, Src: 192.168.100.147 (192.168.100.147), Dst: 192.168.100.135 (192.168.100.135)
+User Datagram Protocol, Src Port: 50379 (50379), Dst Port: domain (53)
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+    370 41.011896000   192.168.100.147       192.168.100.135       DNS      79     Standard query 0xc421  A clients2.google.com
+
+Frame 370: 79 bytes on wire (632 bits), 79 bytes captured (632 bits) on interface 0
+Ethernet II, Src: fa:16:3e:e4:46:91 (fa:16:3e:e4:46:91), Dst: fa:16:3e:15:ce:f1 (fa:16:3e:15:ce:f1)
+Internet Protocol Version 4, Src: 192.168.100.147 (192.168.100.147), Dst: 192.168.100.135 (192.168.100.135)
+User Datagram Protocol, Src Port: 52283 (52283), Dst Port: domain (53)
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+    371 41.277447000   192.168.100.147       192.168.100.135       DNS      79     Standard query 0x0698  A accounts.google.com
+
+Frame 371: 79 bytes on wire (632 bits), 79 bytes captured (632 bits) on interface 0
+Ethernet II, Src: fa:16:3e:e4:46:91 (fa:16:3e:e4:46:91), Dst: fa:16:3e:15:ce:f1 (fa:16:3e:15:ce:f1)
+Internet Protocol Version 4, Src: 192.168.100.147 (192.168.100.147), Dst: 192.168.100.135 (192.168.100.135)
+User Datagram Protocol, Src Port: 50760 (50760), Dst Port: domain (53)
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+    376 42.261873000   192.168.100.147       192.168.100.135       DNS      79     Standard query 0xc04c  A accounts.google.com
+
+Frame 376: 79 bytes on wire (632 bits), 79 bytes captured (632 bits) on interface 0
+Ethernet II, Src: fa:16:3e:e4:46:91 (fa:16:3e:e4:46:91), Dst: fa:16:3e:15:ce:f1 (fa:16:3e:15:ce:f1)
+Internet Protocol Version 4, Src: 192.168.100.147 (192.168.100.147), Dst: 192.168.100.135 (192.168.100.135)
+User Datagram Protocol, Src Port: 53900 (53900), Dst Port: domain (53)
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+    377 42.277403000   192.168.100.147       192.168.100.135       DNS      79     Standard query 0x0698  A accounts.google.com
+
+Frame 377: 79 bytes on wire (632 bits), 79 bytes captured (632 bits) on interface 0
+Ethernet II, Src: fa:16:3e:e4:46:91 (fa:16:3e:e4:46:91), Dst: fa:16:3e:15:ce:f1 (fa:16:3e:15:ce:f1)
+Internet Protocol Version 4, Src: 192.168.100.147 (192.168.100.147), Dst: 192.168.100.135 (192.168.100.135)
+User Datagram Protocol, Src Port: 50760 (50760), Dst Port: domain (53)
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+    378 42.606481000   192.168.100.147       192.168.100.135       DNS      85     Standard query 0x0ed8  A teredo.ipv6.microsoft.com
+
+Frame 378: 85 bytes on wire (680 bits), 85 bytes captured (680 bits) on interface 0
+Ethernet II, Src: fa:16:3e:e4:46:91 (fa:16:3e:e4:46:91), Dst: fa:16:3e:15:ce:f1 (fa:16:3e:15:ce:f1)
+Internet Protocol Version 4, Src: 192.168.100.147 (192.168.100.147), Dst: 192.168.100.135 (192.168.100.135)
+User Datagram Protocol, Src Port: 58357 (58357), Dst Port: domain (53)
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+    379 42.675304000   192.168.100.135       192.168.100.147       DNS      158    Standard query response 0x0ed8 No such name
+
+Frame 379: 158 bytes on wire (1264 bits), 158 bytes captured (1264 bits) on interface 0
+Ethernet II, Src: fa:16:3e:15:ce:f1 (fa:16:3e:15:ce:f1), Dst: fa:16:3e:e4:46:91 (fa:16:3e:e4:46:91)
+Internet Protocol Version 4, Src: 192.168.100.135 (192.168.100.135), Dst: 192.168.100.147 (192.168.100.147)
+User Datagram Protocol, Src Port: domain (53), Dst Port: 58357 (58357)
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+    383 42.990119000   192.168.100.135       192.168.100.147       DNS      79     Standard query response 0xc421 Server failure
+
+Frame 383: 79 bytes on wire (632 bits), 79 bytes captured (632 bits) on interface 0
+Ethernet II, Src: fa:16:3e:15:ce:f1 (fa:16:3e:15:ce:f1), Dst: fa:16:3e:e4:46:91 (fa:16:3e:e4:46:91)
+Internet Protocol Version 4, Src: 192.168.100.135 (192.168.100.135), Dst: 192.168.100.147 (192.168.100.147)
+User Datagram Protocol, Src Port: domain (53), Dst Port: 52283 (52283)
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+    384 42.990167000   192.168.100.135       192.168.100.147       DNS      79     Standard query response 0xf9b1 Server failure
+
+Frame 384: 79 bytes on wire (632 bits), 79 bytes captured (632 bits) on interface 0
+Ethernet II, Src: fa:16:3e:15:ce:f1 (fa:16:3e:15:ce:f1), Dst: fa:16:3e:e4:46:91 (fa:16:3e:e4:46:91)
+Internet Protocol Version 4, Src: 192.168.100.135 (192.168.100.135), Dst: 192.168.100.147 (192.168.100.147)
+User Datagram Protocol, Src Port: domain (53), Dst Port: 50379 (50379)
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+    391 44.254157000   192.168.100.135       192.168.100.147       DNS      79     Standard query response 0x0698 Server failure
+
+Frame 391: 79 bytes on wire (632 bits), 79 bytes captured (632 bits) on interface 0
+Ethernet II, Src: fa:16:3e:15:ce:f1 (fa:16:3e:15:ce:f1), Dst: fa:16:3e:e4:46:91 (fa:16:3e:e4:46:91)
+Internet Protocol Version 4, Src: 192.168.100.135 (192.168.100.135), Dst: 192.168.100.147 (192.168.100.147)
+User Datagram Protocol, Src Port: domain (53), Dst Port: 50760 (50760)
+Domain Name System (response)

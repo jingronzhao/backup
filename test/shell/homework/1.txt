@@ -1,0 +1,7 @@
+total 8
+-rw-r--r-- 1 zhaojingrong home   0 Dec 22 20:31 1.c
+-rw-r--r-- 1 zhaojingrong home   0 Dec 22 21:05 1.txt
+-rw-r--r-- 1 zhaojingrong home   0 Dec 22 21:03 2.c
+-rw-r--r-- 1 zhaojingrong home   0 Dec 22 21:03 a.txt
+-rwxr-xr-x 1 zhaojingrong home 172 Dec 22 20:26 meun.sh
+-rwx------ 1 zhaojingrong home  36 Dec 22 21:04 move.sh
